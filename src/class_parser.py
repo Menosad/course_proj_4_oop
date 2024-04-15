@@ -5,9 +5,8 @@ import json
 
 
 class ParserHH(ABCParser):
-
     folder = os.path.abspath('')
-    data_path = os.path.join(folder, '..', 'data', 'data_json_hh.json')
+    data_path = os.path.join(folder, 'data', 'data_json_hh.json')
 
     def __init__(self):
         self.hh_url = 'https://api.hh.ru/vacancies'
@@ -23,7 +22,7 @@ class ParserHH(ABCParser):
             json_response = response.json()['items']
             self.vacancies_list.extend(json_response)
             self.params['page'] += 1
-        extended_list = json.dumps(self.vacancies_list, indent=4)
+        extended_list = json.dumps(self.vacancies_list, ensure_ascii=False, indent=4)
         with open(ParserHH.data_path, 'w') as f:
             f.write(extended_list)
 
