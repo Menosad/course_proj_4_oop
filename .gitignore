@@ -6,6 +6,15 @@ __pycache__/
 # C extensions
 *.so
 
+.idea/course_project_4_oop.iml
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+README.md
+poetry.lock
+
+
 # Distribution / packaging
 .Python
 build/
