@@ -11,13 +11,13 @@ class ParserHH(ABCParser):
     def __init__(self):
         self.hh_url = 'https://api.hh.ru/vacancies'
         self.head = {'Agent-User': 'HH-User-Agent'}
-        self.params = {'text': '', 'page': 0, 'per_page': 20}
+        self.params = {'text': '', 'page': 0, 'per_page': 5}
         self.vacancies_list = []
 
     def get_vacancies(self, text=''):
         self.params['text'] = text
         ParserHH.refresh_data()
-        while self.params['page'] != 5:
+        while self.params['page'] != 4:
             response = requests.get(self.hh_url, headers=self.head, params=self.params)
             json_response = response.json()['items']
             self.vacancies_list.extend(json_response)

@@ -18,17 +18,15 @@ class Vacancy:
         self.salary = salary
         self.requirement = requirement
         self.responsibility = responsibility
-        Vacancy.validate()
+        Vacancy.validate(self)
 
     def job_comparisons(self):
         pass
 
-    @staticmethod
-    def validate():
-        params = Vacancy.__dict__
-        for key in params.keys():
-            if not params[key]:
-                Vacancy.key = 'Не указано'
-
-
-    pass
+    def validate(self):
+        params = [self.id_num, self.name, self.address_city,
+                  self.employer_name, self.salary, self.requirement,
+                  self.responsibility]
+        for key in params:
+            if not key:
+                key = 'Не указано'
