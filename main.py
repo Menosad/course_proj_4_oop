@@ -18,8 +18,10 @@ def get_vacancies_list():
         employer_name = item['employer']['name']
         requirement = item['snippet']['requirement']
         responsibility = item['snippet']['responsibility']
+        experience = item['experience']['name']
+        url = item['apply_alternate_url']
         vacancy = Vacancy(id_num, name, address_city, salary, employer_name, requirement,
-                          responsibility)
+                          responsibility, experience, url)
         list_vacancies.append(vacancy)
 
     return list_vacancies
@@ -28,17 +30,4 @@ def get_vacancies_list():
 vacancies_list = get_vacancies_list()
 
 for item in vacancies_list:
-    # id_num = item['id']
-    # name = item['name']
-    # address_city = item['area']['name']
-    # salary = item['salary']
-    # employer_name = item['employer']['name']
-    # requirement = item['snippet']['requirement']
-    # responsibility = item['snippet']['responsibility']
-    print(f"Вакансия: {item.name}\n"
-          f"от компании {item.employer_name} в городе {item.address_city}")
-    if not item.salary:
-        print('Зарплата не указана')
-    else:
-        print(f"Зарплата: от {item.salary['from']} до {item.salary['to']}")
-
+    print(item)
