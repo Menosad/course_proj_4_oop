@@ -24,7 +24,7 @@ class Vacancy:
         Vacancy.validate(self)
 
     def __str__(self):
-        return (f"Вакансия: {self.name} от компании {self.employer_name} в городе {self.address_city}.\n"
+        return (f"Вакансия: {self.name} от компании {self.employer_name} в городе {self.v}.\n"
                 f"{self.salary}. Опыт работы: {self.experience} \n"
                 f"Необходимые навыки: {self.requirement}\n"
                 f"Вам предстоит {self.responsibility}\n"
@@ -42,7 +42,3 @@ class Vacancy:
                 salary_text = f"Зарплата: от {self.salary['from']} до {self.salary['to']}"
         self.salary = salary_text
         return self.salary
-
-    def job_comparisons(self):
-        pass
-
