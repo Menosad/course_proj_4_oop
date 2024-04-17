@@ -1,6 +1,7 @@
 import json
 from src.class_parser import ParserHH
 from src.class_vacancy import Vacancy
+from src.class_job_compression import JobCompression
 import os
 
 
@@ -8,12 +9,12 @@ def get_vacancies_list():
     folder = os.path.abspath('data/data_json_hh.json')
     list_vacancies = []
 
-    with open(folder) as file:
+    with open(folder, encoding='utf-8') as file:
         data_dict = json.load(file)
     for item in data_dict:
         id_num = item['id']
         name = item['name']
-        address_city = item['area']['name']
+        address_city = item['area']['name'].lower()
         salary = item['salary']
         employer_name = item['employer']['name']
         requirement = item['snippet']['requirement']
@@ -28,6 +29,9 @@ def get_vacancies_list():
 
 
 vacancies_list = get_vacancies_list()
-
+print(len(vacancies_list))
+job = JobCompression(vacancies_list)
+vacancies_list = job.filter()
+#print(len(vacancies_list))
 for item in vacancies_list:
     print(item)

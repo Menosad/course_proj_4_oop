@@ -1,6 +1,6 @@
 class Vacancy:
-    __slots__ = ['id_num', 'name', 'address_city', 'salary', 'salary', 'employer_name',
-                 'requirement', 'responsibility', 'experience', 'url']
+    __slots__ = ['id_num', 'name', 'address_city', 'salary', 'employer_name',
+                 'requirement', 'responsibility', 'experience', 'url', 'salary_text']
     id_num: int
     name: str
     address_city: str
@@ -21,24 +21,31 @@ class Vacancy:
         self.responsibility = responsibility
         self.experience = experience
         self.url = url
-        Vacancy.validate(self)
+        self.salary_text = self.validate()
 
     def __str__(self):
-        return (f"Вакансия: {self.name} от компании {self.employer_name} в городе {self.v}.\n"
-                f"{self.salary}. Опыт работы: {self.experience} \n"
+        return (f"Вакансия: {self.name} от компании {self.employer_name} в городе {self.address_city.capitalize()}.\n"
+                f"{self.salary_text}. Опыт работы: {self.experience} \n"
                 f"Необходимые навыки: {self.requirement}\n"
                 f"Вам предстоит {self.responsibility}\n"
                 f"--------------------------------")
 
     def validate(self):
-        if not self.salary:
-            salary_text = 'Зарплата не указана'
+        if self.salary is None:
+            self.salary = [0]
+            return 'Зарплата не указана'
         else:
-            if not self.salary['from']:
-                salary_text = f"Зарплата: до {self.salary['to']}"
-            elif not self.salary['to']:
-                salary_text = f"Зарплата: от {self.salary['from']}"
+            salary_from = self.salary['from']
+            salary_to = self.salary['to']
+            shaft = self.salary['currency']
+            self.salary = [salary_from, salary_to, shaft]
+            if salary_from is None:
+                self.salary = [salary_to, shaft]
+                return f"Зарплата от: {salary_to} {shaft}"
+            elif salary_to is None:
+                self.salary = [salary_from, shaft]
+                return f"Зарплата от: {salary_from} {shaft}"
             else:
-                salary_text = f"Зарплата: от {self.salary['from']} до {self.salary['to']}"
-        self.salary = salary_text
-        return self.salary
+                return f"Зарплата от: {salary_from} до {salary_to} {shaft}"
+
+
