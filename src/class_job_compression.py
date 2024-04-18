@@ -37,8 +37,11 @@ class JobCompression:
         list_of_matches = []
         for city in self.array:
             cities.add(city.address_city)
-        city = input('Укажите город, где хотите работать: ').lower()
+        city = input('"Enter" - выбрать вакансии во всех городах\n'
+                     'или укажите интересущий вас город: ').lower()
         if city in cities:
+            return city
+        elif city == '':
             return city
         else:
             for element in cities:

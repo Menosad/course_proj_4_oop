@@ -27,7 +27,16 @@ def get_vacancies_list():
 
     return list_vacancies
 
+
 if __name__ == '__main__':
     hh_parser = ParserHH()
-    vacancy = input()
-    vacancies_list = hh_parser.get_vacancies(vacancy)
+    word = input('Название вакансии: ')
+    hh_parser.get_vacancies(word)
+    vacancies_list = get_vacancies_list()
+    job_comp = JobCompression(vacancies_list)
+    favorites_list = job_comp.filter()
+    print('--------------------------------')
+    for item in favorites_list:
+        print(item)
+
+

@@ -23,7 +23,7 @@ class ParserHH(ABCParser):
             self.vacancies_list.extend(json_response)
             self.params['page'] += 1
         extended_list = json.dumps(self.vacancies_list, ensure_ascii=False, indent=4)
-        with open(ParserHH.data_path, 'w') as f:
+        with open(ParserHH.data_path, 'w', encoding="utf-8") as f:
             f.write(extended_list)
 
         return self.vacancies_list

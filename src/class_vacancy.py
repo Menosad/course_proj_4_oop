@@ -28,7 +28,8 @@ class Vacancy:
                 f"{self.salary_text}. Опыт работы: {self.experience} \n"
                 f"Необходимые навыки: {self.requirement}\n"
                 f"Вам предстоит {self.responsibility}\n"
-                f"--------------------------------")
+                f"--------------------------------\n"
+                f"ссылка на вакансию: {self.url}")
 
     def validate(self):
         if self.salary is None:
