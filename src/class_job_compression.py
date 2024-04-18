@@ -1,15 +1,17 @@
 import os
+import json
 
 class JobCompression:
-    __slots__ = ['array', 'search_list']
-    data_file_path = os.path.abspath('data')
+    __slots__ = ['array', 'favorite_list']
+    folder_path = os.path.abspath('')
+    data_file_path = os.path.join(folder_path, 'data', 'favorites_data.json')
 
     array: list
-    search_list: list
+    favorite_list: list
 
     def __init__(self, array):
         self.array = array
-        self.search_list = []
+        self.favorite_list = []
 
     def filter(self):
         """Метод фильтрующий список вакансий"""
@@ -23,11 +25,11 @@ class JobCompression:
         city = self.city_filter()
         for item in self.array:
             if city == item.address_city and item.salary[0] >= int(salary_from):
-                self.search_list.append(item)
+                self.favorite_list.append(item)
             else:
                 if item.salary[0] >= int(salary_from):
-                    self.search_list.append(item)
-        return self.search_list
+                    self.favorite_list.append(item)
+        return self.favorite_list
 
     def city_filter(self):
         """Метод для выбора фильтра по городу"""
@@ -57,6 +59,6 @@ class JobCompression:
 
     def uploading_favorites(self):
         """Метод для добавления вакансий в избранное"""
-        pass
-
-print(JobCompression.data_file_path)
+        with open(self.data_file_path, 'w') as file:
+            upload_json = json.dumps(str(self.favorite_list), ensure_ascii=False, indent=4)
+            file.write(upload_json)

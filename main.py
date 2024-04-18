@@ -27,12 +27,7 @@ def get_vacancies_list():
 
     return list_vacancies
 
-print(ParserHH.data_path)
-
-# vacancies_list = get_vacancies_list()
-# print(len(vacancies_list))
-# job = JobCompression(vacancies_list)
-# vacancies_list = job.filter()
-# #print(len(vacancies_list))
-# for item in vacancies_list:
-#     print(item)
+if __name__ == '__main__':
+    hh_parser = ParserHH()
+    vacancy = input()
+    vacancies_list = hh_parser.get_vacancies(vacancy)
