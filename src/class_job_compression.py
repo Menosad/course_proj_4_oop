@@ -1,5 +1,9 @@
+import os
+
 class JobCompression:
     __slots__ = ['array', 'search_list']
+    data_file_path = os.path.abspath('data')
+
     array: list
     search_list: list
 
@@ -51,5 +55,8 @@ class JobCompression:
             else:
                 return ''
 
-    def add_to_favorites(self):
+    def uploading_favorites(self):
+        """Метод для добавления вакансий в избранное"""
         pass
+
+print(JobCompression.data_file_path)
