@@ -1,6 +1,7 @@
 import os
 import json
 
+
 class JobCompression:
     __slots__ = ['array', 'favorite_list']
     folder_path = os.path.abspath('')
@@ -21,7 +22,6 @@ class JobCompression:
                 salary_from = int(input('Зарплата от: '))
             except:
                 print('Напишите 0 или искомую зарплату')
-
         city = self.city_filter()
         for item in self.array:
             if city == item.address_city and item.salary[0] >= int(salary_from):
@@ -37,8 +37,11 @@ class JobCompression:
         list_of_matches = []
         for city in self.array:
             cities.add(city.address_city)
-        city = input('Укажите город, где хотите работать: ').lower()
+        city = input('Нажмите "Enter" - все доступные города.\n'
+                     'Укажите город, где хотите работать: ').lower()
         if city in cities:
+            return city
+        elif city == '':
             return city
         else:
             for element in cities:
@@ -48,10 +51,9 @@ class JobCompression:
                         count += 1
                 if count > len(city) // 2:
                     list_of_matches.append(element.capitalize())
-            print(f"{city} нет в списке, возможно вы имели в виду:\n"
+            print(f"{city.capitalize()} нет в списке, возможно вы имели в виду:\n"
                   f"{', '.join(list_of_matches)}")
-            city = input(f"Нажмите 'Enter' - Все доступные города.\n"
-                         f"или укажите город из списка: ")
+            city = input(f"или укажите город из списка: ")
             if city in list_of_matches:
                 return city
             else:
