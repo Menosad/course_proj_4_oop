@@ -48,7 +48,11 @@ if __name__ == '__main__':
         hh_parser = ParserHH()
         print('Привет, давай подберем тебе работу!')
         text = input('вакансия: ')
-        hh_parser.get_vacancies(text)
+        uploaded_vacancies_list = hh_parser.get_vacancies(text)
+        vacancies_list = obtaining_vacancy_objects()
+        job_compres = JobCompression(vacancies_list)
+        job_compres.filter()
+        job_compres.uploading_favorites(text)
         break
         # у тебя в избранном:
 

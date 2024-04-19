@@ -3,9 +3,8 @@ import json
 
 
 class JobCompression:
-    __slots__ = ['array', 'favorite_list']
+    __slots__ = ['array', 'favorite_list', 'data_file_path']
     folder_path = os.path.abspath('')
-    data_file_path = os.path.join(folder_path, 'data', 'favorites_data.json')
 
     array: list
     favorite_list: list
@@ -13,9 +12,10 @@ class JobCompression:
     def __init__(self, array):
         self.array = array
         self.favorite_list = []
+        self.data_file_path = os.path.join(JobCompression.folder_path)
 
     def filter(self):
-        """Метод фильтрующий список вакансий"""
+        """Метод фильтрующий список вакансий, возвращает список объектов Vacancy"""
         salary_from = ''
         while not isinstance(salary_from, int):
             try:
@@ -59,8 +59,11 @@ class JobCompression:
             else:
                 return ''
 
-    def uploading_favorites(self):
-        """Метод для добавления вакансий в избранное"""
+    def uploading_favorites(self, vacancy_name):
+        """Метод создающий файл с отфильтрованными вакансиями
+        создает список, НЕ ФАЙЛ! ПЕРЕДЕЛАЙ!"""
+        file_name = 'hh_parser_' + vacancy_name + '.json'
+        self.data_file_path = os.path.join('data', file_name)
         with open(self.data_file_path, 'w') as file:
             upload_json = json.dumps(str(self.favorite_list), ensure_ascii=False, indent=4)
             file.write(upload_json)

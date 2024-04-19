@@ -1,121 +1,19 @@
 [
     {
-        "id": "97226013",
+        "id": "89808706",
         "premium": false,
-        "name": "ФРОНТЕНД РАЗРАБОТЧИК (JAVASCRIPT / REACT FRONTEND DEVELOPER)",
+        "name": "Водитель сочлененного самосвала",
         "department": null,
         "has_test": false,
         "response_letter_required": false,
         "area": {
-            "id": "1002",
-            "name": "Минск",
-            "url": "https://api.hh.ru/areas/1002"
+            "id": "1191",
+            "name": "Черногорск",
+            "url": "https://api.hh.ru/areas/1191"
         },
         "salary": {
-            "from": 3000,
-            "to": null,
-            "currency": "BYR",
-            "gross": false
-        },
-        "type": {
-            "id": "open",
-            "name": "Открытая"
-        },
-        "address": {
-            "city": "Минск",
-            "street": "Советская улица",
-            "building": "11",
-            "lat": 53.89554611636954,
-            "lng": 27.54448684390219,
-            "description": null,
-            "raw": "Минск, Советская улица, 11",
-            "metro": {
-                "station_name": "Площадь Ленина",
-                "line_name": "Московская",
-                "station_id": "62.411",
-                "line_id": "62",
-                "lat": 53.893875,
-                "lng": 27.548015
-            },
-            "metro_stations": [
-                {
-                    "station_name": "Площадь Ленина",
-                    "line_name": "Московская",
-                    "station_id": "62.411",
-                    "line_id": "62",
-                    "lat": 53.893875,
-                    "lng": 27.548015
-                }
-            ],
-            "id": "333794"
-        },
-        "response_url": null,
-        "sort_point_distance": null,
-        "published_at": "2024-04-17T13:55:15+0300",
-        "created_at": "2024-04-17T13:55:15+0300",
-        "archived": false,
-        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=97226013",
-        "insider_interview": null,
-        "url": "https://api.hh.ru/vacancies/97226013?host=hh.ru",
-        "alternate_url": "https://hh.ru/vacancy/97226013",
-        "relations": [],
-        "employer": {
-            "id": "954875",
-            "name": "Главное хозяйственное управление Управления делами Президента Республики Беларусь, Государственное учреждение",
-            "url": "https://api.hh.ru/employers/954875",
-            "alternate_url": "https://hh.ru/employer/954875",
-            "logo_urls": null,
-            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=954875",
-            "accredited_it_employer": false,
-            "trusted": true
-        },
-        "snippet": {
-            "requirement": "Наличие подтверждающих сертификатов в области программирования (JavaScript/React frontend <highlighttext>developer</highlighttext>) или других связанных сфер. Один из обязательных этапов при приеме...",
-            "responsibility": "Формат работы:"
-        },
-        "contacts": null,
-        "schedule": {
-            "id": "fullDay",
-            "name": "Полный день"
-        },
-        "working_days": [],
-        "working_time_intervals": [],
-        "working_time_modes": [],
-        "accept_temporary": false,
-        "professional_roles": [
-            {
-                "id": "96",
-                "name": "Программист, разработчик"
-            }
-        ],
-        "accept_incomplete_resumes": false,
-        "experience": {
-            "id": "between1And3",
-            "name": "От 1 года до 3 лет"
-        },
-        "employment": {
-            "id": "full",
-            "name": "Полная занятость"
-        },
-        "adv_response_url": null,
-        "is_adv_vacancy": false,
-        "adv_context": null
-    },
-    {
-        "id": "96034351",
-        "premium": false,
-        "name": "Junior Python разработчик",
-        "department": null,
-        "has_test": false,
-        "response_letter_required": false,
-        "area": {
-            "id": "2",
-            "name": "Санкт-Петербург",
-            "url": "https://api.hh.ru/areas/2"
-        },
-        "salary": {
-            "from": 50000,
-            "to": null,
+            "from": 150000,
+            "to": 220000,
             "currency": "RUR",
             "gross": false
         },
@@ -126,333 +24,32 @@
         "address": null,
         "response_url": null,
         "sort_point_distance": null,
-        "published_at": "2024-04-03T00:16:03+0300",
-        "created_at": "2024-04-03T00:16:03+0300",
+        "published_at": "2024-04-01T05:17:14+0300",
+        "created_at": "2024-04-01T05:17:14+0300",
         "archived": false,
-        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=96034351",
-        "insider_interview": null,
-        "url": "https://api.hh.ru/vacancies/96034351?host=hh.ru",
-        "alternate_url": "https://hh.ru/vacancy/96034351",
-        "relations": [],
-        "employer": {
-            "id": "10938683",
-            "name": "Yakov Lushkov Neuro-Agency",
-            "url": "https://api.hh.ru/employers/10938683",
-            "alternate_url": "https://hh.ru/employer/10938683",
-            "logo_urls": null,
-            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=10938683",
-            "accredited_it_employer": false,
-            "trusted": false
-        },
-        "snippet": {
-            "requirement": "Знание минимум 1 БД и 1 ORM. HTTP И REST. GIT. Опыт работы ML или backend <highlighttext>разработчиком</highlighttext>. Участие в олимпиадах...",
-            "responsibility": "Разработка продуктов, интеграция ИИ решений с помощью api. Поддержка и расширение написанного кода."
-        },
-        "contacts": null,
-        "schedule": {
-            "id": "fullDay",
-            "name": "Полный день"
-        },
-        "working_days": [],
-        "working_time_intervals": [],
-        "working_time_modes": [],
-        "accept_temporary": false,
-        "professional_roles": [
-            {
-                "id": "96",
-                "name": "Программист, разработчик"
-            }
-        ],
-        "accept_incomplete_resumes": true,
-        "experience": {
-            "id": "noExperience",
-            "name": "Нет опыта"
-        },
-        "employment": {
-            "id": "full",
-            "name": "Полная занятость"
-        },
-        "adv_response_url": null,
-        "is_adv_vacancy": false,
-        "adv_context": null
-    },
-    {
-        "id": "97076411",
-        "premium": false,
-        "name": "Стажер-разработчик",
-        "department": null,
-        "has_test": false,
-        "response_letter_required": false,
-        "area": {
-            "id": "160",
-            "name": "Алматы",
-            "url": "https://api.hh.ru/areas/160"
-        },
-        "salary": {
-            "from": 100000,
-            "to": 150000,
-            "currency": "KZT",
-            "gross": false
-        },
-        "type": {
-            "id": "open",
-            "name": "Открытая"
-        },
-        "address": {
-            "city": "Алматы",
-            "street": "улица Кажымукана",
-            "building": "22/5",
-            "lat": 43.223757,
-            "lng": 76.956937,
-            "description": null,
-            "raw": "Алматы, улица Кажымукана, 22/5",
-            "metro": null,
-            "metro_stations": [],
-            "id": "7197809"
-        },
-        "response_url": null,
-        "sort_point_distance": null,
-        "published_at": "2024-04-16T08:09:05+0300",
-        "created_at": "2024-04-16T08:09:05+0300",
-        "archived": false,
-        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=97076411",
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=89808706",
         "show_logo_in_search": null,
         "insider_interview": null,
-        "url": "https://api.hh.ru/vacancies/97076411?host=hh.ru",
-        "alternate_url": "https://hh.ru/vacancy/97076411",
+        "url": "https://api.hh.ru/vacancies/89808706?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/89808706",
         "relations": [],
         "employer": {
-            "id": "737295",
-            "name": "Prime Source",
-            "url": "https://api.hh.ru/employers/737295",
-            "alternate_url": "https://hh.ru/employer/737295",
+            "id": "5019303",
+            "name": "Артель Старателей Юг",
+            "url": "https://api.hh.ru/employers/5019303",
+            "alternate_url": "https://hh.ru/employer/5019303",
             "logo_urls": {
-                "240": "https://img.hhcdn.ru/employer-logo/5487009.png",
-                "90": "https://img.hhcdn.ru/employer-logo/5487008.png",
-                "original": "https://img.hhcdn.ru/employer-logo-original/966973.png"
+                "90": "https://img.hhcdn.ru/employer-logo/6506349.jpeg",
+                "240": "https://img.hhcdn.ru/employer-logo/6506350.jpeg",
+                "original": "https://img.hhcdn.ru/employer-logo-original/1221477.jpeg"
             },
-            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=737295",
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5019303",
             "accredited_it_employer": false,
             "trusted": true
         },
         "snippet": {
-            "requirement": "Знание основ программирования. Знания любого языка программирования (JavaScript, PHP, <highlighttext>Python</highlighttext>, C#, Java, C, C++ и др). Писать код, понимать основные...",
-            "responsibility": "Разработка, развитие и поддержка Аналитической системы."
-        },
-        "contacts": null,
-        "schedule": {
-            "id": "fullDay",
-            "name": "Полный день"
-        },
-        "working_days": [],
-        "working_time_intervals": [],
-        "working_time_modes": [],
-        "accept_temporary": true,
-        "professional_roles": [
-            {
-                "id": "96",
-                "name": "Программист, разработчик"
-            }
-        ],
-        "accept_incomplete_resumes": false,
-        "experience": {
-            "id": "noExperience",
-            "name": "Нет опыта"
-        },
-        "employment": {
-            "id": "full",
-            "name": "Полная занятость"
-        },
-        "adv_response_url": null,
-        "is_adv_vacancy": false,
-        "adv_context": null
-    },
-    {
-        "id": "96194079",
-        "premium": false,
-        "name": "Junior Golang Developer",
-        "department": null,
-        "has_test": false,
-        "response_letter_required": false,
-        "area": {
-            "id": "1550",
-            "name": "Таганрог",
-            "url": "https://api.hh.ru/areas/1550"
-        },
-        "salary": {
-            "from": 75000,
-            "to": null,
-            "currency": "RUR",
-            "gross": false
-        },
-        "type": {
-            "id": "open",
-            "name": "Открытая"
-        },
-        "address": null,
-        "response_url": null,
-        "sort_point_distance": null,
-        "published_at": "2024-04-04T15:34:22+0300",
-        "created_at": "2024-04-04T15:34:22+0300",
-        "archived": false,
-        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=96194079",
-        "show_logo_in_search": null,
-        "insider_interview": null,
-        "url": "https://api.hh.ru/vacancies/96194079?host=hh.ru",
-        "alternate_url": "https://hh.ru/vacancy/96194079",
-        "relations": [],
-        "employer": {
-            "id": "10911658",
-            "name": "JavaCode",
-            "url": "https://api.hh.ru/employers/10911658",
-            "alternate_url": "https://hh.ru/employer/10911658",
-            "logo_urls": {
-                "original": "https://img.hhcdn.ru/employer-logo-original/1253713.png",
-                "90": "https://img.hhcdn.ru/employer-logo/6635281.png",
-                "240": "https://img.hhcdn.ru/employer-logo/6635282.png"
-            },
-            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=10911658",
-            "accredited_it_employer": false,
-            "trusted": true
-        },
-        "snippet": {
-            "requirement": "Опыт работы с CI/CD. Опыт с другими языками программирования, такими как <highlighttext>Python</highlighttext>, Java, C++ и т. д., будет преимуществом. ",
-            "responsibility": null
-        },
-        "contacts": null,
-        "schedule": {
-            "id": "fullDay",
-            "name": "Полный день"
-        },
-        "working_days": [],
-        "working_time_intervals": [],
-        "working_time_modes": [],
-        "accept_temporary": true,
-        "professional_roles": [
-            {
-                "id": "96",
-                "name": "Программист, разработчик"
-            }
-        ],
-        "accept_incomplete_resumes": false,
-        "experience": {
-            "id": "noExperience",
-            "name": "Нет опыта"
-        },
-        "employment": {
-            "id": "full",
-            "name": "Полная занятость"
-        },
-        "adv_response_url": null,
-        "is_adv_vacancy": false,
-        "adv_context": null
-    },
-    {
-        "id": "97345412",
-        "premium": false,
-        "name": "Frontend-разработчик",
-        "department": null,
-        "has_test": false,
-        "response_letter_required": false,
-        "area": {
-            "id": "2",
-            "name": "Санкт-Петербург",
-            "url": "https://api.hh.ru/areas/2"
-        },
-        "salary": {
-            "from": 50000,
-            "to": null,
-            "currency": "RUR",
-            "gross": false
-        },
-        "type": {
-            "id": "open",
-            "name": "Открытая"
-        },
-        "address": {
-            "city": "Санкт-Петербург",
-            "street": "Белоостровская улица",
-            "building": "17к2",
-            "lat": 59.986826,
-            "lng": 30.321195,
-            "description": null,
-            "raw": "Санкт-Петербург, Белоостровская улица, 17к2",
-            "metro": {
-                "station_name": "Лесная",
-                "line_name": "Кировско-Выборгская",
-                "station_id": "14.195",
-                "line_id": "14",
-                "lat": 59.984947,
-                "lng": 30.344259
-            },
-            "metro_stations": [
-                {
-                    "station_name": "Лесная",
-                    "line_name": "Кировско-Выборгская",
-                    "station_id": "14.195",
-                    "line_id": "14",
-                    "lat": 59.984947,
-                    "lng": 30.344259
-                },
-                {
-                    "station_name": "Пионерская",
-                    "line_name": "Московско-Петроградская",
-                    "station_id": "15.213",
-                    "line_id": "15",
-                    "lat": 60.002487,
-                    "lng": 30.296759
-                },
-                {
-                    "station_name": "Площадь Мужества",
-                    "line_name": "Кировско-Выборгская",
-                    "station_id": "14.194",
-                    "line_id": "14",
-                    "lat": 59.999828,
-                    "lng": 30.366159
-                },
-                {
-                    "station_name": "Чёрная речка",
-                    "line_name": "Московско-Петроградская",
-                    "station_id": "15.214",
-                    "line_id": "15",
-                    "lat": 59.985455,
-                    "lng": 30.300833
-                }
-            ],
-            "id": "553839"
-        },
-        "response_url": null,
-        "sort_point_distance": null,
-        "published_at": "2024-04-18T16:07:39+0300",
-        "created_at": "2024-04-18T16:07:39+0300",
-        "archived": false,
-        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=97345412",
-        "branding": {
-            "type": "CONSTRUCTOR",
-            "tariff": "BASIC"
-        },
-        "show_logo_in_search": true,
-        "insider_interview": null,
-        "url": "https://api.hh.ru/vacancies/97345412?host=hh.ru",
-        "alternate_url": "https://hh.ru/vacancy/97345412",
-        "relations": [],
-        "employer": {
-            "id": "1951255",
-            "name": "Траектория",
-            "url": "https://api.hh.ru/employers/1951255",
-            "alternate_url": "https://hh.ru/employer/1951255",
-            "logo_urls": {
-                "original": "https://img.hhcdn.ru/employer-logo-original/1120709.png",
-                "90": "https://img.hhcdn.ru/employer-logo/6103429.png",
-                "240": "https://img.hhcdn.ru/employer-logo/6103430.png"
-            },
-            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1951255",
-            "accredited_it_employer": false,
-            "trusted": true
-        },
-        "snippet": {
-            "requirement": "Знание WebSockets. Опыт работы с препроцессорами CSS (SASS, SCSS). Опыт работы c <highlighttext>Python</highlighttext>. Опыт коммерческой разработки. Наличие высшего технического образования.",
-            "responsibility": "Разработка новых web приложений. Принимать активное участие в обсуждении архитектурных решений. Проводить Code Review коллег. Автоматизация бизнес-процессов. "
+            "requirement": "Наличие удостоверения <highlighttext>тракториста</highlighttext>-машиниста. Категория А 3. Опыт работы на сочлененных самосвалах. Желание работать и зарабатывать.",
+            "responsibility": "Перевозка горной массы. Содержание техники в технически исправном состоянии. Участие в ремонте техники."
         },
         "contacts": null,
         "schedule": {
@@ -465,8 +62,8 @@
         "accept_temporary": false,
         "professional_roles": [
             {
-                "id": "96",
-                "name": "Программист, разработчик"
+                "id": "21",
+                "name": "Водитель"
             }
         ],
         "accept_incomplete_resumes": false,
@@ -483,299 +80,19 @@
         "adv_context": null
     },
     {
-        "id": "95911208",
+        "id": "89959334",
         "premium": false,
-        "name": "Data Scientist / Data Analyst / Data engineer",
+        "name": "Тракторист - механизатор",
         "department": null,
         "has_test": false,
         "response_letter_required": false,
         "area": {
-            "id": "1",
-            "name": "Москва",
-            "url": "https://api.hh.ru/areas/1"
-        },
-        "salary": null,
-        "type": {
-            "id": "open",
-            "name": "Открытая"
-        },
-        "address": null,
-        "response_url": null,
-        "sort_point_distance": null,
-        "published_at": "2024-04-01T17:10:40+0300",
-        "created_at": "2024-04-01T17:10:40+0300",
-        "archived": false,
-        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=95911208",
-        "show_logo_in_search": null,
-        "insider_interview": null,
-        "url": "https://api.hh.ru/vacancies/95911208?host=hh.ru",
-        "alternate_url": "https://hh.ru/vacancy/95911208",
-        "relations": [],
-        "employer": {
-            "id": "2942396",
-            "name": "СтандартПроект",
-            "url": "https://api.hh.ru/employers/2942396",
-            "alternate_url": "https://hh.ru/employer/2942396",
-            "logo_urls": {
-                "90": "https://img.hhcdn.ru/employer-logo/5393160.png",
-                "240": "https://img.hhcdn.ru/employer-logo/5393161.png",
-                "original": "https://img.hhcdn.ru/employer-logo-original/964785.png"
-            },
-            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2942396",
-            "accredited_it_employer": false,
-            "trusted": true
-        },
-        "snippet": {
-            "requirement": "Знание английского на уровне чтения технической документации. - Писать сервисы на <highlighttext>Python</highlighttext>, например: Многопоточный REST API На Flask, или автоматизировать выгрузку...",
-            "responsibility": "40% Доработка процесса оценки алгоритмов с использованием SQL, <highlighttext>Python</highlighttext>, Grafana. 4. 10% Подготовка сложных выгрузок с использованием SQL и <highlighttext>Python</highlighttext>. - "
-        },
-        "contacts": null,
-        "schedule": {
-            "id": "fullDay",
-            "name": "Полный день"
-        },
-        "working_days": [],
-        "working_time_intervals": [],
-        "working_time_modes": [],
-        "accept_temporary": false,
-        "professional_roles": [
-            {
-                "id": "165",
-                "name": "Дата-сайентист"
-            }
-        ],
-        "accept_incomplete_resumes": false,
-        "experience": {
-            "id": "between1And3",
-            "name": "От 1 года до 3 лет"
-        },
-        "employment": {
-            "id": "full",
-            "name": "Полная занятость"
-        },
-        "adv_response_url": null,
-        "is_adv_vacancy": false,
-        "adv_context": null
-    },
-    {
-        "id": "97224107",
-        "premium": false,
-        "name": "IT-специалист",
-        "department": null,
-        "has_test": false,
-        "response_letter_required": false,
-        "area": {
-            "id": "2780",
-            "name": "Нукус",
-            "url": "https://api.hh.ru/areas/2780"
-        },
-        "salary": null,
-        "type": {
-            "id": "open",
-            "name": "Открытая"
-        },
-        "address": null,
-        "response_url": null,
-        "sort_point_distance": null,
-        "published_at": "2024-04-17T13:39:10+0300",
-        "created_at": "2024-04-17T13:39:10+0300",
-        "archived": false,
-        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=97224107",
-        "insider_interview": null,
-        "url": "https://api.hh.ru/vacancies/97224107?host=hh.ru",
-        "alternate_url": "https://hh.ru/vacancy/97224107",
-        "relations": [],
-        "employer": {
-            "id": "10679541",
-            "name": "ALPHA-VIT",
-            "url": "https://api.hh.ru/employers/10679541",
-            "alternate_url": "https://hh.ru/employer/10679541",
-            "logo_urls": null,
-            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=10679541",
-            "accredited_it_employer": false,
-            "trusted": true
-        },
-        "snippet": {
-            "requirement": "Опыт работы и проекты: Предыдущий опыт работы в роли <highlighttext>разработчика</highlighttext> или участие в проектах в соответствующей области. Портфолио проектов, демонстрирующее...",
-            "responsibility": "Управление временем и задачами. Открытые каналы коммуникации и поддержка со стороны руководства и коллег. Четкое представление о целях и задачах..."
-        },
-        "contacts": null,
-        "schedule": {
-            "id": "fullDay",
-            "name": "Полный день"
-        },
-        "working_days": [],
-        "working_time_intervals": [],
-        "working_time_modes": [],
-        "accept_temporary": false,
-        "professional_roles": [
-            {
-                "id": "113",
-                "name": "Системный администратор"
-            }
-        ],
-        "accept_incomplete_resumes": false,
-        "experience": {
-            "id": "between1And3",
-            "name": "От 1 года до 3 лет"
-        },
-        "employment": {
-            "id": "full",
-            "name": "Полная занятость"
-        },
-        "adv_response_url": null,
-        "is_adv_vacancy": false,
-        "adv_context": null
-    },
-    {
-        "id": "97331836",
-        "premium": false,
-        "name": "Программист Python",
-        "department": null,
-        "has_test": false,
-        "response_letter_required": false,
-        "area": {
-            "id": "2",
-            "name": "Санкт-Петербург",
-            "url": "https://api.hh.ru/areas/2"
+            "id": "3815",
+            "name": "Панино",
+            "url": "https://api.hh.ru/areas/3815"
         },
         "salary": {
-            "from": 50000,
-            "to": null,
-            "currency": "RUR",
-            "gross": false
-        },
-        "type": {
-            "id": "open",
-            "name": "Открытая"
-        },
-        "address": {
-            "city": "Санкт-Петербург",
-            "street": "Белоостровская улица",
-            "building": "17к2",
-            "lat": 59.986826,
-            "lng": 30.321195,
-            "description": null,
-            "raw": "Санкт-Петербург, Белоостровская улица, 17к2",
-            "metro": {
-                "station_name": "Лесная",
-                "line_name": "Кировско-Выборгская",
-                "station_id": "14.195",
-                "line_id": "14",
-                "lat": 59.984947,
-                "lng": 30.344259
-            },
-            "metro_stations": [
-                {
-                    "station_name": "Лесная",
-                    "line_name": "Кировско-Выборгская",
-                    "station_id": "14.195",
-                    "line_id": "14",
-                    "lat": 59.984947,
-                    "lng": 30.344259
-                },
-                {
-                    "station_name": "Пионерская",
-                    "line_name": "Московско-Петроградская",
-                    "station_id": "15.213",
-                    "line_id": "15",
-                    "lat": 60.002487,
-                    "lng": 30.296759
-                },
-                {
-                    "station_name": "Площадь Мужества",
-                    "line_name": "Кировско-Выборгская",
-                    "station_id": "14.194",
-                    "line_id": "14",
-                    "lat": 59.999828,
-                    "lng": 30.366159
-                },
-                {
-                    "station_name": "Чёрная речка",
-                    "line_name": "Московско-Петроградская",
-                    "station_id": "15.214",
-                    "line_id": "15",
-                    "lat": 59.985455,
-                    "lng": 30.300833
-                }
-            ],
-            "id": "553839"
-        },
-        "response_url": null,
-        "sort_point_distance": null,
-        "published_at": "2024-04-18T13:54:31+0300",
-        "created_at": "2024-04-18T13:54:31+0300",
-        "archived": false,
-        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=97331836",
-        "branding": {
-            "type": "CONSTRUCTOR",
-            "tariff": "BASIC"
-        },
-        "show_logo_in_search": true,
-        "insider_interview": null,
-        "url": "https://api.hh.ru/vacancies/97331836?host=hh.ru",
-        "alternate_url": "https://hh.ru/vacancy/97331836",
-        "relations": [],
-        "employer": {
-            "id": "1951255",
-            "name": "Траектория",
-            "url": "https://api.hh.ru/employers/1951255",
-            "alternate_url": "https://hh.ru/employer/1951255",
-            "logo_urls": {
-                "original": "https://img.hhcdn.ru/employer-logo-original/1120709.png",
-                "90": "https://img.hhcdn.ru/employer-logo/6103429.png",
-                "240": "https://img.hhcdn.ru/employer-logo/6103430.png"
-            },
-            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1951255",
-            "accredited_it_employer": false,
-            "trusted": true
-        },
-        "snippet": {
-            "requirement": "Базовые знания <highlighttext>Python</highlighttext>3. Понимание ООП. Понимание REST API. Базовые знания SQL. Опыт работы с одним из web framework <highlighttext>Python</highlighttext>...",
-            "responsibility": "Разработка новых web приложений. Принимать активное участие в обсуждении архитектурных решений. Проводить Code Review коллег. Автоматизация бизнес-процессов. "
-        },
-        "contacts": null,
-        "schedule": {
-            "id": "fullDay",
-            "name": "Полный день"
-        },
-        "working_days": [],
-        "working_time_intervals": [],
-        "working_time_modes": [],
-        "accept_temporary": false,
-        "professional_roles": [
-            {
-                "id": "96",
-                "name": "Программист, разработчик"
-            }
-        ],
-        "accept_incomplete_resumes": false,
-        "experience": {
-            "id": "between1And3",
-            "name": "От 1 года до 3 лет"
-        },
-        "employment": {
-            "id": "full",
-            "name": "Полная занятость"
-        },
-        "adv_response_url": null,
-        "is_adv_vacancy": false,
-        "adv_context": null
-    },
-    {
-        "id": "97164750",
-        "premium": false,
-        "name": "Python разработчик (Middle)",
-        "department": null,
-        "has_test": false,
-        "response_letter_required": false,
-        "area": {
-            "id": "1",
-            "name": "Москва",
-            "url": "https://api.hh.ru/areas/1"
-        },
-        "salary": {
-            "from": 80000,
+            "from": null,
             "to": 200000,
             "currency": "RUR",
             "gross": false
@@ -787,32 +104,36 @@
         "address": null,
         "response_url": null,
         "sort_point_distance": null,
-        "published_at": "2024-04-17T02:17:57+0300",
-        "created_at": "2024-04-17T02:17:57+0300",
+        "published_at": "2024-04-16T11:37:23+0300",
+        "created_at": "2024-04-16T11:37:23+0300",
         "archived": false,
-        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=97164750",
-        "show_logo_in_search": null,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=89959334",
+        "branding": {
+            "type": "MAKEUP",
+            "tariff": null
+        },
+        "show_logo_in_search": true,
         "insider_interview": null,
-        "url": "https://api.hh.ru/vacancies/97164750?host=hh.ru",
-        "alternate_url": "https://hh.ru/vacancy/97164750",
+        "url": "https://api.hh.ru/vacancies/89959334?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/89959334",
         "relations": [],
         "employer": {
-            "id": "4654595",
-            "name": "Смд-Агентство",
-            "url": "https://api.hh.ru/employers/4654595",
-            "alternate_url": "https://hh.ru/employer/4654595",
+            "id": "813458",
+            "name": "Группа компаний АГРОЭКО",
+            "url": "https://api.hh.ru/employers/813458",
+            "alternate_url": "https://hh.ru/employer/813458",
             "logo_urls": {
-                "90": "https://img.hhcdn.ru/employer-logo/3398085.png",
-                "240": "https://img.hhcdn.ru/employer-logo/3398086.png",
-                "original": "https://img.hhcdn.ru/employer-logo-original/739277.png"
+                "original": "https://img.hhcdn.ru/employer-logo-original/993934.jpg",
+                "90": "https://img.hhcdn.ru/employer-logo/5596536.jpeg",
+                "240": "https://img.hhcdn.ru/employer-logo/5596537.jpeg"
             },
-            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4654595",
-            "accredited_it_employer": true,
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=813458",
+            "accredited_it_employer": false,
             "trusted": true
         },
         "snippet": {
-            "requirement": "Опыт в работе со следующим стеком: <highlighttext>Python</highlighttext>3 (3.6-3.9, от проекта к проекту). PostgreSQL как основная БД. ",
-            "responsibility": "Поддержка и развитие текущих проектов компании. Разработка новых проектов. Проектирование архитектуры и самостоятельность в принятии технических решений."
+            "requirement": "Наличие водительского удостоверения <highlighttext>тракториста</highlighttext>-машиниста категории D,F. Знание правил выполнения различных видов полевых работ. Знание устройства сельскохозяйственной техники, принципов...",
+            "responsibility": "Выполнение сельскохозяйственных и мелиоративных работ, согласно требований агротехники и агротехнологии. Выполнение транспортных работ на тракторах с соблюдением правил дорожного движения. "
         },
         "contacts": null,
         "schedule": {
@@ -825,14 +146,14 @@
         "accept_temporary": false,
         "professional_roles": [
             {
-                "id": "96",
-                "name": "Программист, разработчик"
+                "id": "63",
+                "name": "Машинист"
             }
         ],
         "accept_incomplete_resumes": false,
         "experience": {
-            "id": "between1And3",
-            "name": "От 1 года до 3 лет"
+            "id": "noExperience",
+            "name": "Нет опыта"
         },
         "employment": {
             "id": "full",
@@ -843,79 +164,9 @@
         "adv_context": null
     },
     {
-        "id": "96507348",
+        "id": "94314047",
         "premium": false,
-        "name": "Web-программист - стажер",
-        "department": null,
-        "has_test": false,
-        "response_letter_required": false,
-        "area": {
-            "id": "160",
-            "name": "Алматы",
-            "url": "https://api.hh.ru/areas/160"
-        },
-        "salary": null,
-        "type": {
-            "id": "open",
-            "name": "Открытая"
-        },
-        "address": null,
-        "response_url": null,
-        "sort_point_distance": null,
-        "published_at": "2024-04-09T11:18:59+0300",
-        "created_at": "2024-04-09T11:18:59+0300",
-        "archived": false,
-        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=96507348",
-        "insider_interview": null,
-        "url": "https://api.hh.ru/vacancies/96507348?host=hh.ru",
-        "alternate_url": "https://hh.ru/vacancy/96507348",
-        "relations": [],
-        "employer": {
-            "id": "5031522",
-            "name": "Autodata",
-            "url": "https://api.hh.ru/employers/5031522",
-            "alternate_url": "https://hh.ru/employer/5031522",
-            "logo_urls": null,
-            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5031522",
-            "accredited_it_employer": false,
-            "trusted": true
-        },
-        "snippet": {
-            "requirement": "Знать теорию тестирования, что такое тест планы, чек листы и протокол тестирования, свободно владеть ЯП <highlighttext>Python</highlighttext>, быть приспособленным к монотонной...",
-            "responsibility": "Как правильно работать с git-ом в команде. Писать автотесты на базе Selenium/<highlighttext>Python</highlighttext> (тестировщик). Создавать web-дизайны для реальных..."
-        },
-        "contacts": null,
-        "schedule": {
-            "id": "fullDay",
-            "name": "Полный день"
-        },
-        "working_days": [],
-        "working_time_intervals": [],
-        "working_time_modes": [],
-        "accept_temporary": false,
-        "professional_roles": [
-            {
-                "id": "96",
-                "name": "Программист, разработчик"
-            }
-        ],
-        "accept_incomplete_resumes": true,
-        "experience": {
-            "id": "noExperience",
-            "name": "Нет опыта"
-        },
-        "employment": {
-            "id": "probation",
-            "name": "Стажировка"
-        },
-        "adv_response_url": null,
-        "is_adv_vacancy": false,
-        "adv_context": null
-    },
-    {
-        "id": "96838329",
-        "premium": false,
-        "name": "Python разработчик (Django)",
+        "name": "Водитель погрузчика",
         "department": null,
         "has_test": false,
         "response_letter_required": false,
@@ -925,9 +176,93 @@
             "url": "https://api.hh.ru/areas/1"
         },
         "salary": {
-            "from": 50000,
-            "to": 90000,
+            "from": 120000,
+            "to": 160000,
             "currency": "RUR",
+            "gross": true
+        },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": null,
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2024-04-17T10:16:21+0300",
+        "created_at": "2024-04-17T10:16:21+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=94314047",
+        "branding": {
+            "type": "MAKEUP",
+            "tariff": null
+        },
+        "show_logo_in_search": true,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/94314047?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/94314047",
+        "relations": [],
+        "employer": {
+            "id": "181721",
+            "name": "Сантехкомплект, Компания",
+            "url": "https://api.hh.ru/employers/181721",
+            "alternate_url": "https://hh.ru/employer/181721",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/499945.png",
+                "90": "https://img.hhcdn.ru/employer-logo/2441533.png",
+                "240": "https://img.hhcdn.ru/employer-logo/2441534.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=181721",
+            "accredited_it_employer": false,
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Действующее удостоверение <highlighttext>тракториста</highlighttext>-машиниста, с правом на управление погрузчиком – ОБЯЗАТЕЛЬНО. Можем рассмотреть без опыта работы, но при наличии прав.",
+            "responsibility": "Прием, размещение товаров на складе, сборка заказов (работа с ТСД). Подготовка товаров к транспортировке."
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "professional_roles": [
+            {
+                "id": "21",
+                "name": "Водитель"
+            }
+        ],
+        "accept_incomplete_resumes": true,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "95695282",
+        "premium": false,
+        "name": "Тракторист",
+        "department": null,
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "1004",
+            "name": "Могилев",
+            "url": "https://api.hh.ru/areas/1004"
+        },
+        "salary": {
+            "from": 2100,
+            "to": null,
+            "currency": "BYR",
             "gross": false
         },
         "type": {
@@ -935,59 +270,134 @@
             "name": "Открытая"
         },
         "address": {
-            "city": "Москва",
-            "street": "Большая Академическая улица",
-            "building": "5",
-            "lat": 55.818417,
-            "lng": 37.522216,
+            "city": "Могилёв",
+            "street": "улица Сурганова",
+            "building": "21",
+            "lat": 53.92072,
+            "lng": 30.31232,
             "description": null,
-            "raw": "Москва, Большая Академическая улица, 5",
+            "raw": "Могилёв, улица Сурганова, 21",
             "metro": null,
             "metro_stations": [],
-            "id": "5299371"
+            "id": "15240560"
         },
         "response_url": null,
         "sort_point_distance": null,
-        "published_at": "2024-04-12T18:00:41+0300",
-        "created_at": "2024-04-12T18:00:41+0300",
+        "published_at": "2024-04-18T10:57:10+0300",
+        "created_at": "2024-04-18T10:57:10+0300",
         "archived": false,
-        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=96838329",
-        "show_logo_in_search": null,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=95695282",
         "insider_interview": null,
-        "url": "https://api.hh.ru/vacancies/96838329?host=hh.ru",
-        "alternate_url": "https://hh.ru/vacancy/96838329",
+        "url": "https://api.hh.ru/vacancies/95695282?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/95695282",
         "relations": [],
         "employer": {
-            "id": "5141773",
-            "name": "Hammer Systems",
-            "url": "https://api.hh.ru/employers/5141773",
-            "alternate_url": "https://hh.ru/employer/5141773",
-            "logo_urls": {
-                "original": "https://img.hhcdn.ru/employer-logo-original/1038913.png",
-                "240": "https://img.hhcdn.ru/employer-logo/5776409.png",
-                "90": "https://img.hhcdn.ru/employer-logo/5776408.png"
-            },
-            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5141773",
+            "id": "5499843",
+            "name": "Связьстроймонтаж",
+            "url": "https://api.hh.ru/employers/5499843",
+            "alternate_url": "https://hh.ru/employer/5499843",
+            "logo_urls": null,
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5499843",
             "accredited_it_employer": false,
             "trusted": true
         },
         "snippet": {
-            "requirement": "Основное - желание развиваться, стрессоустойчивость, готовность к плотной работе. Знание <highlighttext>Python</highlighttext>. Знание Django, DRF. Знание SQL. REST API. Наличие завершенных проектов. ",
-            "responsibility": "Разработка новых и поддержка существующих сервисов. Взаимодействие с менеджером, дизайнером, мобильными и frontend <highlighttext>разработчиками</highlighttext>. Оценка трудоемкости задач."
+            "requirement": "Права машиниста экскаватора, <highlighttext>тракториста</highlighttext>. Исполнительность, ответственность, порядочность, пунктуальность.",
+            "responsibility": "Работа на объектах заказчиков. Уход и обслуживание техники перед началом работ и после окончания."
         },
         "contacts": null,
         "schedule": {
-            "id": "remote",
-            "name": "Удаленная работа"
+            "id": "fullDay",
+            "name": "Полный день"
         },
         "working_days": [],
         "working_time_intervals": [],
         "working_time_modes": [],
-        "accept_temporary": true,
+        "accept_temporary": false,
         "professional_roles": [
             {
-                "id": "96",
-                "name": "Программист, разработчик"
+                "id": "63",
+                "name": "Машинист"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "97193976",
+        "premium": false,
+        "name": "Водитель БелАЗа-75131",
+        "department": null,
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "1240",
+            "name": "Новокузнецк",
+            "url": "https://api.hh.ru/areas/1240"
+        },
+        "salary": {
+            "from": 420000,
+            "to": 420000,
+            "currency": "RUR",
+            "gross": false
+        },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": null,
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2024-04-17T10:08:19+0300",
+        "created_at": "2024-04-17T10:08:19+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=97193976",
+        "show_logo_in_search": null,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/97193976?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/97193976",
+        "relations": [],
+        "employer": {
+            "id": "5600541",
+            "name": "Сервис Плюс",
+            "url": "https://api.hh.ru/employers/5600541",
+            "alternate_url": "https://hh.ru/employer/5600541",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/967757.jpeg",
+                "240": "https://img.hhcdn.ru/employer-logo/5490141.png",
+                "90": "https://img.hhcdn.ru/employer-logo/5490140.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5600541",
+            "accredited_it_employer": false,
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Опыт работы от 1 года. Удостоверение <highlighttext>тракториста</highlighttext>-машиниста А-III. Допуск на БелАЗ-75131.",
+            "responsibility": "Осуществление перевозки горной массы на участке добычи угля. Соблюдение правил ОТ и ТБ."
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "professional_roles": [
+            {
+                "id": "40",
+                "name": "Другое"
             }
         ],
         "accept_incomplete_resumes": false,
@@ -1004,16 +414,16 @@
         "adv_context": null
     },
     {
-        "id": "96610644",
+        "id": "97179942",
         "premium": false,
-        "name": "Junior Python developer (Django, FastAPI)",
+        "name": "Персональный водитель руководителя",
         "department": null,
         "has_test": false,
         "response_letter_required": false,
         "area": {
-            "id": "1002",
-            "name": "Минск",
-            "url": "https://api.hh.ru/areas/1002"
+            "id": "68",
+            "name": "Омск",
+            "url": "https://api.hh.ru/areas/68"
         },
         "salary": null,
         "type": {
@@ -1021,222 +431,40 @@
             "name": "Открытая"
         },
         "address": {
-            "city": "Минск",
-            "street": "проспект Дзержинского",
-            "building": "3Б",
-            "lat": 53.891614,
-            "lng": 27.527435,
+            "city": "Омск",
+            "street": "микрорайон Старгород, улица Ф.И.Тютчева",
+            "building": "2",
+            "lat": 55.016316,
+            "lng": 73.345125,
             "description": null,
-            "raw": "Минск, проспект Дзержинского, 3Б",
+            "raw": "Омск, микрорайон Старгород, улица Ф.И.Тютчева, 2",
             "metro": null,
             "metro_stations": [],
-            "id": "5888415"
+            "id": "426323"
         },
         "response_url": null,
         "sort_point_distance": null,
-        "published_at": "2024-04-10T12:19:15+0300",
-        "created_at": "2024-04-10T12:19:15+0300",
+        "published_at": "2024-04-17T08:01:27+0300",
+        "created_at": "2024-04-17T08:01:27+0300",
         "archived": false,
-        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=96610644",
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=97179942",
         "insider_interview": null,
-        "url": "https://api.hh.ru/vacancies/96610644?host=hh.ru",
-        "alternate_url": "https://hh.ru/vacancy/96610644",
+        "url": "https://api.hh.ru/vacancies/97179942?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/97179942",
         "relations": [],
         "employer": {
-            "id": "5224254",
-            "name": "Иксван",
-            "url": "https://api.hh.ru/employers/5224254",
-            "alternate_url": "https://hh.ru/employer/5224254",
+            "id": "1643415",
+            "name": "СПК КСМ",
+            "url": "https://api.hh.ru/employers/1643415",
+            "alternate_url": "https://hh.ru/employer/1643415",
             "logo_urls": null,
-            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5224254",
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1643415",
             "accredited_it_employer": false,
             "trusted": true
         },
         "snippet": {
-            "requirement": "Уверенное знание языка <highlighttext>Python</highlighttext>3. Опыт работы с Linux, GIT. Знания реляционных баз данных и SQL. Опыт работы с фреймворком...",
-            "responsibility": "Создавать Web-сервисы и микросервисы. Писать код на <highlighttext>Python</highlighttext>. Проектировать и реализовывать API для веб, мобильных приложений. Разработка серверной части..."
-        },
-        "contacts": null,
-        "schedule": {
-            "id": "fullDay",
-            "name": "Полный день"
-        },
-        "working_days": [],
-        "working_time_intervals": [],
-        "working_time_modes": [],
-        "accept_temporary": false,
-        "professional_roles": [
-            {
-                "id": "96",
-                "name": "Программист, разработчик"
-            }
-        ],
-        "accept_incomplete_resumes": false,
-        "experience": {
-            "id": "between1And3",
-            "name": "От 1 года до 3 лет"
-        },
-        "employment": {
-            "id": "full",
-            "name": "Полная занятость"
-        },
-        "adv_response_url": null,
-        "is_adv_vacancy": false,
-        "adv_context": null
-    },
-    {
-        "id": "97138886",
-        "premium": false,
-        "name": "Программист Junior +",
-        "department": null,
-        "has_test": false,
-        "response_letter_required": false,
-        "area": {
-            "id": "66",
-            "name": "Нижний Новгород",
-            "url": "https://api.hh.ru/areas/66"
-        },
-        "salary": {
-            "from": 100000,
-            "to": 120000,
-            "currency": "RUR",
-            "gross": false
-        },
-        "type": {
-            "id": "open",
-            "name": "Открытая"
-        },
-        "address": null,
-        "response_url": null,
-        "sort_point_distance": null,
-        "published_at": "2024-04-16T16:26:58+0300",
-        "created_at": "2024-04-16T16:26:58+0300",
-        "archived": false,
-        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=97138886",
-        "show_logo_in_search": null,
-        "insider_interview": null,
-        "url": "https://api.hh.ru/vacancies/97138886?host=hh.ru",
-        "alternate_url": "https://hh.ru/vacancy/97138886",
-        "relations": [],
-        "employer": {
-            "id": "5286714",
-            "name": "Центр развития интеллекта Мой Ломоносов",
-            "url": "https://api.hh.ru/employers/5286714",
-            "alternate_url": "https://hh.ru/employer/5286714",
-            "logo_urls": {
-                "original": "https://img.hhcdn.ru/employer-logo-original/1062221.jpg",
-                "90": "https://img.hhcdn.ru/employer-logo/5869517.jpeg",
-                "240": "https://img.hhcdn.ru/employer-logo/5869518.jpeg"
-            },
-            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5286714",
-            "accredited_it_employer": false,
-            "trusted": true
-        },
-        "snippet": {
-            "requirement": "Нужен <highlighttext>разработчик</highlighttext> на регулярной основе выполнять задачи, развивать БД, Админку и Бот.",
-            "responsibility": "У нас есть бот в телеграмме для проверки домашних заданий у детей, сбора статистики, база данных с заданиями. "
-        },
-        "contacts": null,
-        "schedule": {
-            "id": "fullDay",
-            "name": "Полный день"
-        },
-        "working_days": [],
-        "working_time_intervals": [],
-        "working_time_modes": [],
-        "accept_temporary": false,
-        "professional_roles": [
-            {
-                "id": "96",
-                "name": "Программист, разработчик"
-            }
-        ],
-        "accept_incomplete_resumes": false,
-        "experience": {
-            "id": "between1And3",
-            "name": "От 1 года до 3 лет"
-        },
-        "employment": {
-            "id": "part",
-            "name": "Частичная занятость"
-        },
-        "adv_response_url": null,
-        "is_adv_vacancy": false,
-        "adv_context": null
-    },
-    {
-        "id": "97194939",
-        "premium": false,
-        "name": "Программист-стажер",
-        "department": null,
-        "has_test": false,
-        "response_letter_required": false,
-        "area": {
-            "id": "2",
-            "name": "Санкт-Петербург",
-            "url": "https://api.hh.ru/areas/2"
-        },
-        "salary": null,
-        "type": {
-            "id": "open",
-            "name": "Открытая"
-        },
-        "address": {
-            "city": "Санкт-Петербург",
-            "street": "Литейный проспект",
-            "building": "26",
-            "lat": 59.941885,
-            "lng": 30.349483,
-            "description": null,
-            "raw": "Санкт-Петербург, Литейный проспект, 26",
-            "metro": {
-                "station_name": "Чернышевская",
-                "line_name": "Кировско-Выборгская",
-                "station_id": "14.198",
-                "line_id": "14",
-                "lat": 59.94453,
-                "lng": 30.359919
-            },
-            "metro_stations": [
-                {
-                    "station_name": "Чернышевская",
-                    "line_name": "Кировско-Выборгская",
-                    "station_id": "14.198",
-                    "line_id": "14",
-                    "lat": 59.94453,
-                    "lng": 30.359919
-                }
-            ],
-            "id": "6663670"
-        },
-        "response_url": null,
-        "sort_point_distance": null,
-        "published_at": "2024-04-17T10:15:12+0300",
-        "created_at": "2024-04-17T10:15:12+0300",
-        "archived": false,
-        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=97194939",
-        "show_logo_in_search": null,
-        "insider_interview": null,
-        "url": "https://api.hh.ru/vacancies/97194939?host=hh.ru",
-        "alternate_url": "https://hh.ru/vacancy/97194939",
-        "relations": [],
-        "employer": {
-            "id": "3761281",
-            "name": "ВАС Экспертс",
-            "url": "https://api.hh.ru/employers/3761281",
-            "alternate_url": "https://hh.ru/employer/3761281",
-            "logo_urls": {
-                "90": "https://img.hhcdn.ru/employer-logo/5975349.png",
-                "240": "https://img.hhcdn.ru/employer-logo/5975350.png",
-                "original": "https://img.hhcdn.ru/employer-logo-original/1088680.png"
-            },
-            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3761281",
-            "accredited_it_employer": true,
-            "trusted": true
-        },
-        "snippet": {
-            "requirement": "Высшее или неоконченное высшее техническое образование: физика/математика/вычислительная математика/кибернетика/информационные технологии. Знание теоретических основ: математический анализ, дискретный анализ...",
-            "responsibility": "Участие в проведении стендовых тестов. Настройка и поддержание тестовой инфраструктуры. Работа в тикет-системе."
+            "requirement": "Иметь опыт работы персональным водителем (ОБЯЗАТЕЛЬНО) и на автомобилях представительского класса. ДОПОЛНИТЕЛЬНЫМ ПРЕИМУЩЕСТВОМ БУДЕТ: Наличие прав <highlighttext>тракториста</highlighttext>, права на снегоход...",
+            "responsibility": "Обеспечение профессионального вождения. Выполнение различных мелких поручений (профессионального или личного характера) работодателя, членов его семьи. Выполнение конфиденциальных поручений, в отдельных..."
         },
         "contacts": null,
         "schedule": {
@@ -1249,439 +477,8 @@
         "accept_temporary": false,
         "professional_roles": [
             {
-                "id": "96",
-                "name": "Программист, разработчик"
-            }
-        ],
-        "accept_incomplete_resumes": false,
-        "experience": {
-            "id": "noExperience",
-            "name": "Нет опыта"
-        },
-        "employment": {
-            "id": "probation",
-            "name": "Стажировка"
-        },
-        "adv_response_url": null,
-        "is_adv_vacancy": false,
-        "adv_context": null
-    },
-    {
-        "id": "97045707",
-        "premium": false,
-        "name": "Junior Python разработчик",
-        "department": null,
-        "has_test": false,
-        "response_letter_required": false,
-        "area": {
-            "id": "2",
-            "name": "Санкт-Петербург",
-            "url": "https://api.hh.ru/areas/2"
-        },
-        "salary": {
-            "from": 60000,
-            "to": null,
-            "currency": "RUR",
-            "gross": true
-        },
-        "type": {
-            "id": "open",
-            "name": "Открытая"
-        },
-        "address": {
-            "city": "Санкт-Петербург",
-            "street": "набережная Обводного Канала",
-            "building": "93а",
-            "lat": 59.916451,
-            "lng": 30.338676,
-            "description": null,
-            "raw": "Санкт-Петербург, набережная Обводного Канала, 93а",
-            "metro": null,
-            "metro_stations": [],
-            "id": "445179"
-        },
-        "response_url": null,
-        "sort_point_distance": null,
-        "published_at": "2024-04-15T19:04:07+0300",
-        "created_at": "2024-04-15T19:04:07+0300",
-        "archived": false,
-        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=97045707",
-        "insider_interview": null,
-        "url": "https://api.hh.ru/vacancies/97045707?host=hh.ru",
-        "alternate_url": "https://hh.ru/vacancy/97045707",
-        "relations": [],
-        "employer": {
-            "id": "1684993",
-            "name": "Виста",
-            "url": "https://api.hh.ru/employers/1684993",
-            "alternate_url": "https://hh.ru/employer/1684993",
-            "logo_urls": null,
-            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1684993",
-            "accredited_it_employer": false,
-            "trusted": true
-        },
-        "snippet": {
-            "requirement": "Комплекс Программных Средств \"Виста-Мед\". * Опыт коммерческой разработки от 1 года. * Владение <highlighttext>Python</highlighttext> 2/3. * Владение (My)SQL, конкретно: * * Иметь...",
-            "responsibility": "Написание и поддержка интеграций (<highlighttext>python</highlighttext>2/3 + REST/SOAP + MySQL). * Разработка новых продуктов (<highlighttext>python</highlighttext>3 + Flask/Django..."
-        },
-        "contacts": null,
-        "schedule": {
-            "id": "fullDay",
-            "name": "Полный день"
-        },
-        "working_days": [],
-        "working_time_intervals": [],
-        "working_time_modes": [],
-        "accept_temporary": false,
-        "professional_roles": [
-            {
-                "id": "96",
-                "name": "Программист, разработчик"
-            }
-        ],
-        "accept_incomplete_resumes": false,
-        "experience": {
-            "id": "between1And3",
-            "name": "От 1 года до 3 лет"
-        },
-        "employment": {
-            "id": "full",
-            "name": "Полная занятость"
-        },
-        "adv_response_url": null,
-        "is_adv_vacancy": false,
-        "adv_context": null
-    },
-    {
-        "id": "97307763",
-        "premium": false,
-        "name": "Инженер по тестированию / QA Engineer",
-        "department": null,
-        "has_test": false,
-        "response_letter_required": false,
-        "area": {
-            "id": "1",
-            "name": "Москва",
-            "url": "https://api.hh.ru/areas/1"
-        },
-        "salary": null,
-        "type": {
-            "id": "open",
-            "name": "Открытая"
-        },
-        "address": {
-            "city": "Москва",
-            "street": "Бакунинская улица",
-            "building": "71",
-            "lat": 55.779889,
-            "lng": 37.691144,
-            "description": null,
-            "raw": "Москва, Бакунинская улица, 71",
-            "metro": {
-                "station_name": "Электрозаводская",
-                "line_name": "Арбатско-Покровская",
-                "station_id": "3.161",
-                "line_id": "3",
-                "lat": 55.782057,
-                "lng": 37.7053
-            },
-            "metro_stations": [
-                {
-                    "station_name": "Электрозаводская",
-                    "line_name": "Арбатско-Покровская",
-                    "station_id": "3.161",
-                    "line_id": "3",
-                    "lat": 55.782057,
-                    "lng": 37.7053
-                }
-            ],
-            "id": "758228"
-        },
-        "response_url": null,
-        "sort_point_distance": null,
-        "published_at": "2024-04-18T11:14:10+0300",
-        "created_at": "2024-04-18T11:14:10+0300",
-        "archived": false,
-        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=97307763",
-        "branding": {
-            "type": "MAKEUP",
-            "tariff": null
-        },
-        "show_logo_in_search": true,
-        "insider_interview": null,
-        "url": "https://api.hh.ru/vacancies/97307763?host=hh.ru",
-        "alternate_url": "https://hh.ru/vacancy/97307763",
-        "relations": [],
-        "employer": {
-            "id": "2888",
-            "name": "DSSL",
-            "url": "https://api.hh.ru/employers/2888",
-            "alternate_url": "https://hh.ru/employer/2888",
-            "logo_urls": {
-                "original": "https://img.hhcdn.ru/employer-logo-original/232219.bmp",
-                "240": "https://img.hhcdn.ru/employer-logo/546156.png",
-                "90": "https://img.hhcdn.ru/employer-logo/546155.png"
-            },
-            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2888",
-            "accredited_it_employer": false,
-            "trusted": true
-        },
-        "snippet": {
-            "requirement": "Опыт работы с Docker\\Postgresql\\Etcd\\Nginx\\ProxmoxVE\\Zabbix\\AWX. Знание SQL. Хороший командный игрок. Базовые знания <highlighttext>Python</highlighttext>. ",
-            "responsibility": "Разработка тест-кейсов, чек-листов, оформление тест-планов. Выполнение ручного тестирования (desktop приложения). Мониторинг/поддержание в рабочем состоянии стендов тестирования. "
-        },
-        "contacts": null,
-        "schedule": {
-            "id": "fullDay",
-            "name": "Полный день"
-        },
-        "working_days": [],
-        "working_time_intervals": [],
-        "working_time_modes": [],
-        "accept_temporary": false,
-        "professional_roles": [
-            {
-                "id": "124",
-                "name": "Тестировщик"
-            }
-        ],
-        "accept_incomplete_resumes": false,
-        "experience": {
-            "id": "between1And3",
-            "name": "От 1 года до 3 лет"
-        },
-        "employment": {
-            "id": "full",
-            "name": "Полная занятость"
-        },
-        "adv_response_url": null,
-        "is_adv_vacancy": false,
-        "adv_context": null
-    },
-    {
-        "id": "94354526",
-        "premium": false,
-        "name": "Стажер-разработчик Python",
-        "department": null,
-        "has_test": false,
-        "response_letter_required": false,
-        "area": {
-            "id": "76",
-            "name": "Ростов-на-Дону",
-            "url": "https://api.hh.ru/areas/76"
-        },
-        "salary": {
-            "from": 100000,
-            "to": 150000,
-            "currency": "RUR",
-            "gross": false
-        },
-        "type": {
-            "id": "open",
-            "name": "Открытая"
-        },
-        "address": null,
-        "response_url": null,
-        "sort_point_distance": null,
-        "published_at": "2024-04-15T11:00:23+0300",
-        "created_at": "2024-04-15T11:00:23+0300",
-        "archived": false,
-        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=94354526",
-        "show_logo_in_search": null,
-        "insider_interview": null,
-        "url": "https://api.hh.ru/vacancies/94354526?host=hh.ru",
-        "alternate_url": "https://hh.ru/vacancy/94354526",
-        "relations": [],
-        "employer": {
-            "id": "2071925",
-            "name": "Додо Пицца",
-            "url": "https://api.hh.ru/employers/2071925",
-            "alternate_url": "https://hh.ru/employer/2071925",
-            "logo_urls": {
-                "original": "https://img.hhcdn.ru/employer-logo-original/524506.jpg",
-                "240": "https://img.hhcdn.ru/employer-logo/2539502.jpeg",
-                "90": "https://img.hhcdn.ru/employer-logo/2539501.jpeg"
-            },
-            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2071925",
-            "accredited_it_employer": false,
-            "trusted": true
-        },
-        "snippet": {
-            "requirement": "Мы ищем <highlighttext>Python</highlighttext>-<highlighttext>разработчика</highlighttext>, уровнем от Junior и выше, желательно с опытом развития новых продуктов. Уверенные знания <highlighttext>Python</highlighttext> 3.8...",
-            "responsibility": null
-        },
-        "contacts": null,
-        "schedule": {
-            "id": "fullDay",
-            "name": "Полный день"
-        },
-        "working_days": [],
-        "working_time_intervals": [],
-        "working_time_modes": [],
-        "accept_temporary": false,
-        "professional_roles": [
-            {
-                "id": "96",
-                "name": "Программист, разработчик"
-            }
-        ],
-        "accept_incomplete_resumes": false,
-        "experience": {
-            "id": "noExperience",
-            "name": "Нет опыта"
-        },
-        "employment": {
-            "id": "full",
-            "name": "Полная занятость"
-        },
-        "adv_response_url": null,
-        "is_adv_vacancy": false,
-        "adv_context": null
-    },
-    {
-        "id": "97304812",
-        "premium": false,
-        "name": "Backend разработчик",
-        "department": null,
-        "has_test": false,
-        "response_letter_required": false,
-        "area": {
-            "id": "1",
-            "name": "Москва",
-            "url": "https://api.hh.ru/areas/1"
-        },
-        "salary": {
-            "from": 80000,
-            "to": 110000,
-            "currency": "RUR",
-            "gross": false
-        },
-        "type": {
-            "id": "open",
-            "name": "Открытая"
-        },
-        "address": null,
-        "response_url": null,
-        "sort_point_distance": null,
-        "published_at": "2024-04-18T10:51:04+0300",
-        "created_at": "2024-04-18T10:51:04+0300",
-        "archived": false,
-        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=97304812",
-        "branding": {
-            "type": "MAKEUP",
-            "tariff": null
-        },
-        "show_logo_in_search": true,
-        "insider_interview": null,
-        "url": "https://api.hh.ru/vacancies/97304812?host=hh.ru",
-        "alternate_url": "https://hh.ru/vacancy/97304812",
-        "relations": [],
-        "employer": {
-            "id": "839098",
-            "name": "Автомакон",
-            "url": "https://api.hh.ru/employers/839098",
-            "alternate_url": "https://hh.ru/employer/839098",
-            "logo_urls": {
-                "240": "https://img.hhcdn.ru/employer-logo/4221269.png",
-                "90": "https://img.hhcdn.ru/employer-logo/4221268.png",
-                "original": "https://img.hhcdn.ru/employer-logo-original/945183.png"
-            },
-            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=839098",
-            "accredited_it_employer": true,
-            "trusted": true
-        },
-        "snippet": {
-            "requirement": "Опыт работы бэкенд <highlighttext>разработчиком</highlighttext> от года. Знание <highlighttext>Python</highlighttext>, Django, DRF, опыт использования mypy. Умение использовать Docker и PostgreSQL. ",
-            "responsibility": "Разработка нового функционала для бэкэнда системы. Поддержка текущей кодовой базы. Кросс-ревью других бэкенд <highlighttext>разработчиков</highlighttext>. Тесное общение с аналитиками, которые..."
-        },
-        "contacts": null,
-        "schedule": {
-            "id": "remote",
-            "name": "Удаленная работа"
-        },
-        "working_days": [],
-        "working_time_intervals": [],
-        "working_time_modes": [],
-        "accept_temporary": false,
-        "professional_roles": [
-            {
-                "id": "96",
-                "name": "Программист, разработчик"
-            }
-        ],
-        "accept_incomplete_resumes": false,
-        "experience": {
-            "id": "between1And3",
-            "name": "От 1 года до 3 лет"
-        },
-        "employment": {
-            "id": "full",
-            "name": "Полная занятость"
-        },
-        "adv_response_url": null,
-        "is_adv_vacancy": false,
-        "adv_context": null
-    },
-    {
-        "id": "97225603",
-        "premium": false,
-        "name": "Head of QA",
-        "department": null,
-        "has_test": false,
-        "response_letter_required": false,
-        "area": {
-            "id": "1",
-            "name": "Москва",
-            "url": "https://api.hh.ru/areas/1"
-        },
-        "salary": null,
-        "type": {
-            "id": "open",
-            "name": "Открытая"
-        },
-        "address": null,
-        "response_url": null,
-        "sort_point_distance": null,
-        "published_at": "2024-04-17T13:51:24+0300",
-        "created_at": "2024-04-17T13:51:24+0300",
-        "archived": false,
-        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=97225603",
-        "show_logo_in_search": null,
-        "insider_interview": null,
-        "url": "https://api.hh.ru/vacancies/97225603?host=hh.ru",
-        "alternate_url": "https://hh.ru/vacancy/97225603",
-        "relations": [],
-        "employer": {
-            "id": "950613",
-            "name": "Купибилет",
-            "url": "https://api.hh.ru/employers/950613",
-            "alternate_url": "https://hh.ru/employer/950613",
-            "logo_urls": {
-                "original": "https://img.hhcdn.ru/employer-logo-original/1069233.jpg",
-                "240": "https://img.hhcdn.ru/employer-logo/5897562.jpeg",
-                "90": "https://img.hhcdn.ru/employer-logo/5897561.jpeg"
-            },
-            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=950613",
-            "accredited_it_employer": true,
-            "trusted": true
-        },
-        "snippet": {
-            "requirement": "CI/CD: GitLab, Kubernetes. Наши ожидания к кандидату: Опыт работы в области QA, включая опыт управления QA-командой, предпочтительно от...",
-            "responsibility": "Сотрудничество с другими департаментами продуктовой команды: установление эффективного взаимодействия с <highlighttext>разработчиками</highlighttext>, менеджерами продукта и другими ключевыми участниками процесса разработки для..."
-        },
-        "contacts": null,
-        "schedule": {
-            "id": "fullDay",
-            "name": "Полный день"
-        },
-        "working_days": [],
-        "working_time_intervals": [],
-        "working_time_modes": [],
-        "accept_temporary": false,
-        "professional_roles": [
-            {
-                "id": "124",
-                "name": "Тестировщик"
+                "id": "21",
+                "name": "Водитель"
             }
         ],
         "accept_incomplete_resumes": false,
@@ -1698,9 +495,9 @@
         "adv_context": null
     },
     {
-        "id": "96921751",
+        "id": "96975706",
         "premium": false,
-        "name": "Senior Frontend Developer",
+        "name": "Помощник по хозяйству",
         "department": null,
         "has_test": false,
         "response_letter_required": false,
@@ -1710,11 +507,92 @@
             "url": "https://api.hh.ru/areas/1"
         },
         "salary": {
-            "from": 4000,
-            "to": 7000,
-            "currency": "USD",
-            "gross": true
+            "from": 70000,
+            "to": 100000,
+            "currency": "RUR",
+            "gross": false
         },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": {
+            "city": "рабочий посёлок Шаховская",
+            "street": null,
+            "building": null,
+            "lat": 56.031171,
+            "lng": 35.510394,
+            "description": null,
+            "raw": "рабочий посёлок Шаховская",
+            "metro": null,
+            "metro_stations": [],
+            "id": "15531091"
+        },
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2024-04-18T09:12:27+0300",
+        "created_at": "2024-04-18T09:12:27+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=96975706",
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/96975706?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/96975706",
+        "relations": [],
+        "employer": {
+            "id": "10763314",
+            "name": "Брусникина Виктория Александровна",
+            "url": "https://api.hh.ru/employers/10763314",
+            "alternate_url": "https://hh.ru/employer/10763314",
+            "logo_urls": null,
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=10763314",
+            "accredited_it_employer": false,
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": null,
+            "responsibility": null
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "flyInFlyOut",
+            "name": "Вахтовый метод"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": true,
+        "professional_roles": [
+            {
+                "id": "130",
+                "name": "Уборщица, уборщик"
+            }
+        ],
+        "accept_incomplete_resumes": true,
+        "experience": {
+            "id": "noExperience",
+            "name": "Нет опыта"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "97303827",
+        "premium": false,
+        "name": "Машинист экскаватора",
+        "department": null,
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "20",
+            "name": "Улан-Удэ",
+            "url": "https://api.hh.ru/areas/20"
+        },
+        "salary": null,
         "type": {
             "id": "open",
             "name": "Открытая"
@@ -1722,32 +600,27 @@
         "address": null,
         "response_url": null,
         "sort_point_distance": null,
-        "published_at": "2024-04-14T11:45:14+0300",
-        "created_at": "2024-04-14T11:45:14+0300",
+        "published_at": "2024-04-18T10:42:14+0300",
+        "created_at": "2024-04-18T10:42:14+0300",
         "archived": false,
-        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=96921751",
-        "show_logo_in_search": null,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=97303827",
         "insider_interview": null,
-        "url": "https://api.hh.ru/vacancies/96921751?host=hh.ru",
-        "alternate_url": "https://hh.ru/vacancy/96921751",
+        "url": "https://api.hh.ru/vacancies/97303827?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/97303827",
         "relations": [],
         "employer": {
-            "id": "9091068",
-            "name": "Podscribe",
-            "url": "https://api.hh.ru/employers/9091068",
-            "alternate_url": "https://hh.ru/employer/9091068",
-            "logo_urls": {
-                "original": "https://img.hhcdn.ru/employer-logo-original/993741.jpeg",
-                "90": "https://img.hhcdn.ru/employer-logo/5595764.jpeg",
-                "240": "https://img.hhcdn.ru/employer-logo/5595765.jpeg"
-            },
-            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9091068",
+            "id": "5079506",
+            "name": "Интеко",
+            "url": "https://api.hh.ru/employers/5079506",
+            "alternate_url": "https://hh.ru/employer/5079506",
+            "logo_urls": null,
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5079506",
             "accredited_it_employer": false,
-            "trusted": false
+            "trusted": true
         },
         "snippet": {
-            "requirement": "experience with AWS, specifically Lambda, Amplify, RDS, ECS, etc. - <highlighttext>Python</highlighttext>, Node, SQL (bonus). Can work from anywhere, but must work...",
-            "responsibility": "We're bootstrapped & profitable, and have grown 3x in the past year."
+            "requirement": "Опыт работы на тяжелой технике. Наличие удостоверения <highlighttext>тракториста</highlighttext>-машиниста. Опыт непрерывной работы на экскаваторе от 3-х лет.",
+            "responsibility": "Управление экскаватором при производстве планировки, откосов. Разработка и перемещение различных материалов, горной массы и грунта при устройстве выемок, насыпей, траншей..."
         },
         "contacts": null,
         "schedule": {
@@ -1760,14 +633,1043 @@
         "accept_temporary": false,
         "professional_roles": [
             {
-                "id": "96",
-                "name": "Программист, разработчик"
+                "id": "63",
+                "name": "Машинист"
+            }
+        ],
+        "accept_incomplete_resumes": true,
+        "experience": {
+            "id": "between3And6",
+            "name": "От 3 до 6 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "97194705",
+        "premium": false,
+        "name": "Водитель самосвала",
+        "department": null,
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "102",
+            "name": "Хабаровск",
+            "url": "https://api.hh.ru/areas/102"
+        },
+        "salary": {
+            "from": 420000,
+            "to": 420000,
+            "currency": "RUR",
+            "gross": false
+        },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": null,
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2024-04-17T10:12:54+0300",
+        "created_at": "2024-04-17T10:12:54+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=97194705",
+        "show_logo_in_search": null,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/97194705?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/97194705",
+        "relations": [],
+        "employer": {
+            "id": "5600541",
+            "name": "Сервис Плюс",
+            "url": "https://api.hh.ru/employers/5600541",
+            "alternate_url": "https://hh.ru/employer/5600541",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/967757.jpeg",
+                "240": "https://img.hhcdn.ru/employer-logo/5490141.png",
+                "90": "https://img.hhcdn.ru/employer-logo/5490140.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5600541",
+            "accredited_it_employer": false,
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Опыт работы от 1 года. Удостоверение <highlighttext>тракториста</highlighttext>-машиниста А-III. Допуск на БелАЗ-75131.",
+            "responsibility": "Осуществление перевозки горной массы на участке добычи угля. Соблюдение правил ОТ и ТБ."
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "flyInFlyOut",
+            "name": "Вахтовый метод"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "professional_roles": [
+            {
+                "id": "21",
+                "name": "Водитель"
             }
         ],
         "accept_incomplete_resumes": false,
         "experience": {
-            "id": "moreThan6",
-            "name": "Более 6 лет"
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "97299901",
+        "premium": false,
+        "name": "Водитель электропогрузчика (подработка)",
+        "department": null,
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1"
+        },
+        "salary": {
+            "from": 5700,
+            "to": null,
+            "currency": "RUR",
+            "gross": false
+        },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": {
+            "city": "Москва",
+            "street": "Курьяновская набережная",
+            "building": "11",
+            "lat": 55.649281,
+            "lng": 37.692303,
+            "description": null,
+            "raw": "Москва, Курьяновская набережная, 11",
+            "metro": {
+                "station_name": "Курьяново",
+                "line_name": "МЦД-2",
+                "station_id": "132.807",
+                "line_id": "132",
+                "lat": 55.649722,
+                "lng": 37.701667
+            },
+            "metro_stations": [
+                {
+                    "station_name": "Курьяново",
+                    "line_name": "МЦД-2",
+                    "station_id": "132.807",
+                    "line_id": "132",
+                    "lat": 55.649722,
+                    "lng": 37.701667
+                },
+                {
+                    "station_name": "Москворечье",
+                    "line_name": "МЦД-2",
+                    "station_id": "132.734",
+                    "line_id": "132",
+                    "lat": 55.641239,
+                    "lng": 37.689789
+                },
+                {
+                    "station_name": "Печатники",
+                    "line_name": "Люблинско-Дмитровская",
+                    "station_id": "10.109",
+                    "line_id": "10",
+                    "lat": 55.692921,
+                    "lng": 37.728338
+                }
+            ],
+            "id": "11120801"
+        },
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2024-04-18T10:10:26+0300",
+        "created_at": "2024-04-18T10:10:26+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=97299901",
+        "show_logo_in_search": null,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/97299901?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/97299901",
+        "relations": [],
+        "employer": {
+            "id": "490452",
+            "name": "Фирменный Торговый Дом Царицыно",
+            "url": "https://api.hh.ru/employers/490452",
+            "alternate_url": "https://hh.ru/employer/490452",
+            "logo_urls": {
+                "240": "https://img.hhcdn.ru/employer-logo/2640302.jpeg",
+                "90": "https://img.hhcdn.ru/employer-logo/2640301.jpeg",
+                "original": "https://img.hhcdn.ru/employer-logo-original/549707.jpg"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=490452",
+            "accredited_it_employer": false,
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "удостоверение водителя электропогрузчика или <highlighttext>тракториста</highlighttext>-машиниста. - наличие медицинской книжки.",
+            "responsibility": "размещение товара на складе. - осуществление разгрузочно-погрузочных работ. - комплектование заказов на электропогрузчике."
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "professional_roles": [
+            {
+                "id": "21",
+                "name": "Водитель"
+            }
+        ],
+        "accept_incomplete_resumes": true,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "96960831",
+        "premium": false,
+        "name": "Машинист экскаватора (SANY 1250H)",
+        "department": null,
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "54",
+            "name": "Красноярск",
+            "url": "https://api.hh.ru/areas/54"
+        },
+        "salary": {
+            "from": 435000,
+            "to": 435000,
+            "currency": "RUR",
+            "gross": false
+        },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": null,
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2024-04-15T06:17:38+0300",
+        "created_at": "2024-04-15T06:17:38+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=96960831",
+        "show_logo_in_search": null,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/96960831?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/96960831",
+        "relations": [],
+        "employer": {
+            "id": "5600541",
+            "name": "Сервис Плюс",
+            "url": "https://api.hh.ru/employers/5600541",
+            "alternate_url": "https://hh.ru/employer/5600541",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/967757.jpeg",
+                "240": "https://img.hhcdn.ru/employer-logo/5490141.png",
+                "90": "https://img.hhcdn.ru/employer-logo/5490140.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5600541",
+            "accredited_it_employer": false,
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Опыт работы от 1 года. Удостоверение <highlighttext>тракториста</highlighttext>-машиниста А-III.",
+            "responsibility": "Управлять экскаватором при производстве добычных, вскрышных работ. Производить погрузку породы, угля в автотранспорт согласно утвержденного паспорта загрузки."
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "flyInFlyOut",
+            "name": "Вахтовый метод"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "professional_roles": [
+            {
+                "id": "63",
+                "name": "Машинист"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "97299612",
+        "premium": false,
+        "name": "Водитель вилочного погрузчика",
+        "department": null,
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "88",
+            "name": "Казань",
+            "url": "https://api.hh.ru/areas/88"
+        },
+        "salary": {
+            "from": 70000,
+            "to": 85000,
+            "currency": "RUR",
+            "gross": true
+        },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": null,
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2024-04-18T10:08:27+0300",
+        "created_at": "2024-04-18T10:08:27+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=97299612",
+        "branding": {
+            "type": "MAKEUP",
+            "tariff": null
+        },
+        "show_logo_in_search": true,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/97299612?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/97299612",
+        "relations": [],
+        "employer": {
+            "id": "37955",
+            "name": "Bergauf",
+            "url": "https://api.hh.ru/employers/37955",
+            "alternate_url": "https://hh.ru/employer/37955",
+            "logo_urls": {
+                "240": "https://img.hhcdn.ru/employer-logo/3977104.png",
+                "90": "https://img.hhcdn.ru/employer-logo/3977103.png",
+                "original": "https://img.hhcdn.ru/employer-logo-original/884101.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=37955",
+            "accredited_it_employer": false,
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Удостоверение машиниста- <highlighttext>тракториста</highlighttext> категории \"С\", удостоверение на водителя погрузчика. Опыт работы не менее 6 месяцев.",
+            "responsibility": "Погрузка-выгрузка готовой продукции. - Поддержка чистоты в помещении для стоянки и ремонта погрузчика."
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "professional_roles": [
+            {
+                "id": "21",
+                "name": "Водитель"
+            }
+        ],
+        "accept_incomplete_resumes": true,
+        "experience": {
+            "id": "between3And6",
+            "name": "От 3 до 6 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "97154182",
+        "premium": false,
+        "name": "Машинист экскаватора",
+        "department": null,
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "159",
+            "name": "Астана",
+            "url": "https://api.hh.ru/areas/159"
+        },
+        "salary": {
+            "from": 450000,
+            "to": 500000,
+            "currency": "KZT",
+            "gross": false
+        },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": null,
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2024-04-16T20:43:12+0300",
+        "created_at": "2024-04-16T20:43:12+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=97154182",
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/97154182?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/97154182",
+        "relations": [],
+        "employer": {
+            "id": "3011670",
+            "name": "АДС-2001",
+            "url": "https://api.hh.ru/employers/3011670",
+            "alternate_url": "https://hh.ru/employer/3011670",
+            "logo_urls": null,
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3011670",
+            "accredited_it_employer": false,
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Требуются сотрудник оператор - экскаваторщик - погрузчик можно иногородним. Образование техническое и профессиональное, удостоверение <highlighttext>тракториста</highlighttext>-машиниста. Ответственность. Пунктуальность. Знать принципы работы и...",
+            "responsibility": "Управление экскаватором Hitachi ZX200. Техническое обслуживание экскаватора и текущий ремонт всех его механизмов. Соблюдение ПДД. Своевременно выполнять текущий ремонт..."
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "professional_roles": [
+            {
+                "id": "63",
+                "name": "Машинист"
+            }
+        ],
+        "accept_incomplete_resumes": true,
+        "experience": {
+            "id": "between3And6",
+            "name": "От 3 до 6 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "97090869",
+        "premium": false,
+        "name": "Водитель электропогрузчика (ричтрака) и штабелера",
+        "department": null,
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1"
+        },
+        "salary": {
+            "from": 100000,
+            "to": null,
+            "currency": "RUR",
+            "gross": false
+        },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": null,
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2024-04-16T10:18:11+0300",
+        "created_at": "2024-04-16T10:18:11+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=97090869",
+        "branding": {
+            "type": "MAKEUP",
+            "tariff": null
+        },
+        "show_logo_in_search": true,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/97090869?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/97090869",
+        "relations": [],
+        "employer": {
+            "id": "1791",
+            "name": "Хлебпром",
+            "url": "https://api.hh.ru/employers/1791",
+            "alternate_url": "https://hh.ru/employer/1791",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/1063628.jpg",
+                "90": "https://img.hhcdn.ru/employer-logo/5875145.jpeg",
+                "240": "https://img.hhcdn.ru/employer-logo/5875146.jpeg"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1791",
+            "accredited_it_employer": false,
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Знание правил техники безопасности при работе на складской технике. Наличие водительского удостоверения водителя <highlighttext>тракториста</highlighttext>. Опыт работы на аналогичной должности от...",
+            "responsibility": "Правильное передвижение и размещение груза на паллете и в стеллаже. Перемещение и укладка груза."
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "professional_roles": [
+            {
+                "id": "21",
+                "name": "Водитель"
+            }
+        ],
+        "accept_incomplete_resumes": true,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "97009667",
+        "premium": false,
+        "name": "Помощник машиниста буровой установки",
+        "department": null,
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "1180",
+            "name": "Нерюнгри",
+            "url": "https://api.hh.ru/areas/1180"
+        },
+        "salary": {
+            "from": 285000,
+            "to": 285000,
+            "currency": "RUR",
+            "gross": false
+        },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": null,
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2024-04-15T13:17:52+0300",
+        "created_at": "2024-04-15T13:17:52+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=97009667",
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/97009667?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/97009667",
+        "relations": [],
+        "employer": {
+            "id": "4911441",
+            "name": "Уралвзрывпром",
+            "url": "https://api.hh.ru/employers/4911441",
+            "alternate_url": "https://hh.ru/employer/4911441",
+            "logo_urls": null,
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4911441",
+            "accredited_it_employer": false,
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Квалификационное удостоверение помощника машиниста буровой установки либо квалификационное удостоверение машиниста буровой установки 4-го разряда. Наличие удостоверения <highlighttext>тракториста</highlighttext>-машиниста с...",
+            "responsibility": "Обслуживание станка. Участие в замене бурового инструмента. Участие в процессе ремонта буровой установки. Участие в монтаже, демонтаже и транспортировке буровой..."
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "flyInFlyOut",
+            "name": "Вахтовый метод"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "professional_roles": [
+            {
+                "id": "63",
+                "name": "Машинист"
+            }
+        ],
+        "accept_incomplete_resumes": true,
+        "experience": {
+            "id": "between3And6",
+            "name": "От 3 до 6 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "97051156",
+        "premium": false,
+        "name": "Трактоист-машинис на погрузчик",
+        "department": null,
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1"
+        },
+        "salary": {
+            "from": 120000,
+            "to": 120000,
+            "currency": "RUR",
+            "gross": false
+        },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": null,
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2024-04-15T21:20:27+0300",
+        "created_at": "2024-04-15T21:20:27+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=97051156",
+        "show_logo_in_search": null,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/97051156?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/97051156",
+        "relations": [],
+        "employer": {
+            "id": "6029564",
+            "name": "Строительная Компания-Столица",
+            "url": "https://api.hh.ru/employers/6029564",
+            "alternate_url": "https://hh.ru/employer/6029564",
+            "logo_urls": {
+                "240": "https://img.hhcdn.ru/employer-logo/4202389.jpeg",
+                "90": "https://img.hhcdn.ru/employer-logo/4202388.jpeg",
+                "original": "https://img.hhcdn.ru/employer-logo-original/940462.jpeg"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=6029564",
+            "accredited_it_employer": false,
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Действующее удостоверение (прав <highlighttext>тракториста</highlighttext>-машиниста категории С). Опыт работы на аналогичной должности от 1 года. Исполнительность и ответственность.",
+            "responsibility": "Работа на погрузчике. Погрузка строительного мусора и грунта в машины и бункера. Раскопка и засыпка траншей. Уборка снега и поддержание..."
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "professional_roles": [
+            {
+                "id": "63",
+                "name": "Машинист"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "97194140",
+        "premium": false,
+        "name": "Водитель БелАЗа-75131",
+        "department": null,
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "47",
+            "name": "Кемерово",
+            "url": "https://api.hh.ru/areas/47"
+        },
+        "salary": {
+            "from": 420000,
+            "to": 420000,
+            "currency": "RUR",
+            "gross": false
+        },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": null,
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2024-04-17T10:10:10+0300",
+        "created_at": "2024-04-17T10:10:10+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=97194140",
+        "show_logo_in_search": null,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/97194140?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/97194140",
+        "relations": [],
+        "employer": {
+            "id": "5600541",
+            "name": "Сервис Плюс",
+            "url": "https://api.hh.ru/employers/5600541",
+            "alternate_url": "https://hh.ru/employer/5600541",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/967757.jpeg",
+                "240": "https://img.hhcdn.ru/employer-logo/5490141.png",
+                "90": "https://img.hhcdn.ru/employer-logo/5490140.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5600541",
+            "accredited_it_employer": false,
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Опыт работы от 1 года. Удостоверение <highlighttext>тракториста</highlighttext>-машиниста А-III. Допуск на БелАЗ-75131.",
+            "responsibility": "Осуществление перевозки горной массы на участке добычи угля. Соблюдение правил ОТ и ТБ."
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "flyInFlyOut",
+            "name": "Вахтовый метод"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "professional_roles": [
+            {
+                "id": "40",
+                "name": "Другое"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "96870003",
+        "premium": false,
+        "name": "Машинист экскаватора",
+        "department": null,
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "35",
+            "name": "Иркутск",
+            "url": "https://api.hh.ru/areas/35"
+        },
+        "salary": null,
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": null,
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2024-04-13T09:41:18+0300",
+        "created_at": "2024-04-13T09:41:18+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=96870003",
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/96870003?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/96870003",
+        "relations": [],
+        "employer": {
+            "id": "5079506",
+            "name": "Интеко",
+            "url": "https://api.hh.ru/employers/5079506",
+            "alternate_url": "https://hh.ru/employer/5079506",
+            "logo_urls": null,
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5079506",
+            "accredited_it_employer": false,
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Опыт работы на тяжелой технике. Наличие удостоверения <highlighttext>тракториста</highlighttext>-машиниста. Опыт непрерывной работы на экскаваторе от 3-х лет.",
+            "responsibility": "Управление экскаватором при производстве планировки, откосов. Разработка и перемещение различных материалов, горной массы и грунта при устройстве выемок, насыпей, траншей..."
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "flyInFlyOut",
+            "name": "Вахтовый метод"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "professional_roles": [
+            {
+                "id": "63",
+                "name": "Машинист"
+            }
+        ],
+        "accept_incomplete_resumes": true,
+        "experience": {
+            "id": "between3And6",
+            "name": "От 3 до 6 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "95325336",
+        "premium": false,
+        "name": "Машинист бульдозера D-375",
+        "department": null,
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "3708",
+            "name": "Усть-Нера",
+            "url": "https://api.hh.ru/areas/3708"
+        },
+        "salary": {
+            "from": 300000,
+            "to": null,
+            "currency": "RUR",
+            "gross": false
+        },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": {
+            "city": "посёлок городского типа Усть-Нера",
+            "street": null,
+            "building": null,
+            "lat": 64.570729,
+            "lng": 143.231162,
+            "description": null,
+            "raw": "посёлок городского типа Усть-Нера",
+            "metro": null,
+            "metro_stations": [],
+            "id": "6928628"
+        },
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2024-04-19T03:25:26+0300",
+        "created_at": "2024-04-19T03:25:26+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=95325336",
+        "show_logo_in_search": null,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/95325336?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/95325336",
+        "relations": [],
+        "employer": {
+            "id": "3261515",
+            "name": "Поиск Золото",
+            "url": "https://api.hh.ru/employers/3261515",
+            "alternate_url": "https://hh.ru/employer/3261515",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/500206.png",
+                "90": "https://img.hhcdn.ru/employer-logo/2442577.png",
+                "240": "https://img.hhcdn.ru/employer-logo/2442578.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3261515",
+            "accredited_it_employer": false,
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Послойная отсыпка насыпей. - Наличие действующего удостоверения <highlighttext>тракториста</highlighttext>-машиниста. - Опыт работы не менее 3 лет на бульдозерах импортного производства, подтвержденный записью...",
+            "responsibility": "Разработка и перемещение грунтов различных категорий при разной глубине разработки. - Разработка выемок, отсыпки насыпей и планировки площадей по заданным профилям..."
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "professional_roles": [
+            {
+                "id": "63",
+                "name": "Машинист"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "between3And6",
+            "name": "От 3 до 6 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "97193471",
+        "premium": false,
+        "name": "Тракторист-машинист",
+        "department": null,
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1"
+        },
+        "salary": {
+            "from": 120000,
+            "to": 120000,
+            "currency": "RUR",
+            "gross": false
+        },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": {
+            "city": null,
+            "street": null,
+            "building": null,
+            "lat": null,
+            "lng": null,
+            "description": null,
+            "raw": null,
+            "metro": {
+                "station_name": "Дмитровская",
+                "line_name": "Серпуховско-Тимирязевская",
+                "station_id": "9.35",
+                "line_id": "9",
+                "lat": 55.808056,
+                "lng": 37.581734
+            },
+            "metro_stations": [
+                {
+                    "station_name": "Дмитровская",
+                    "line_name": "Серпуховско-Тимирязевская",
+                    "station_id": "9.35",
+                    "line_id": "9",
+                    "lat": 55.808056,
+                    "lng": 37.581734
+                }
+            ],
+            "id": "770326"
+        },
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2024-04-17T10:04:08+0300",
+        "created_at": "2024-04-17T10:04:08+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=97193471",
+        "show_logo_in_search": null,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/97193471?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/97193471",
+        "relations": [],
+        "employer": {
+            "id": "1549614",
+            "name": "ЭКО ГРИН СТРОЙ",
+            "url": "https://api.hh.ru/employers/1549614",
+            "alternate_url": "https://hh.ru/employer/1549614",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/1055859.jpg",
+                "90": "https://img.hhcdn.ru/employer-logo/5844077.jpeg",
+                "240": "https://img.hhcdn.ru/employer-logo/5844078.jpeg"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1549614",
+            "accredited_it_employer": false,
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "наличие водительских прав соответствующей категории. - наличие удостоверения <highlighttext>тракториста</highlighttext>-машиниста (<highlighttext>тракториста</highlighttext>) . Опыт работы на тракторе. - ответственной подход к работе.",
+            "responsibility": "погрузка/разгрузка грузов. - поддержание автомобиля в технически исправном состоянии, проведение мелких текущих ремонтов. - заполнение необходимых контрольных документов. - работа на объектах..."
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "professional_roles": [
+            {
+                "id": "63",
+                "name": "Машинист"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
         },
         "employment": {
             "id": "full",

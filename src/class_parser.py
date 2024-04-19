@@ -17,12 +17,9 @@ class ParserHH(ABCParser):
         self.params = {'text': '', 'page': 0, 'per_page': 5}
         self.vacancies_list = []
         self.folder = os.path.abspath('')
-        self.data_name = 'data_hh_'
-        self.text = ''
         self.data_path = ''
 
     def get_vacancies(self, text=''):
-        self.text = text
         self.params['text'] = text
         self.refresh_data()
         while self.params['page'] != 4:
@@ -36,7 +33,6 @@ class ParserHH(ABCParser):
         return self.vacancies_list
 
     def refresh_data(self):
-        self.data_name = self.data_name + self.text + '.json'
-        self.data_path = os.path.join(self.folder, 'data', self.data_name)
+        self.data_path = os.path.join(self.folder, 'data', 'data_json_hh.json')
         with open(self.data_path, 'w') as file:
             file.write('')
