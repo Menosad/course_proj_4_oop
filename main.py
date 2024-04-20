@@ -47,12 +47,16 @@ if __name__ == '__main__':
     while text != 'stop':
         hh_parser = ParserHH()
         print('Привет, давай подберем тебе работу!')
+        # показывает список имеющихся избранных вакансий в формате: У Вас в избранном {количество вакансий} вакансий
+        # предлагает просмотреть избранные вакансии, командой "show me {название вакансии}
         text = input('вакансия: ')
         uploaded_vacancies_list = hh_parser.get_vacancies(text)
         vacancies_list = obtaining_vacancy_objects()
         job_compres = JobCompression(vacancies_list)
         job_compres.filter()
-        job_compres.uploading_favorites(text)
+        # создается класс менеджер, который получает отфильтрованный список
+        # листает его и добавляет пробелом в избранное вакансию
+        # создает .json файл избранных вакансий
         break
         # у тебя в избранном:
 

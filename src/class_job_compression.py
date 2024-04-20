@@ -33,7 +33,7 @@ class JobCompression:
 
     def city_filter(self):
         """Метод для выбора фильтра по городу"""
-        cities = set()  # список городов для корректировки ввода от пользователя
+        cities = set()  # множество городов для корректировки ввода от пользователя
         list_of_matches = []
         for city in self.array:
             cities.add(city.address_city)
